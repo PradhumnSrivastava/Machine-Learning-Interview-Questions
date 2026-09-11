@@ -1,0 +1,22 @@
+name: Daily ML Questions Update
+
+on:
+  schedule:
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-questions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check repository
+        run: |
+          echo "Repository checked out successfully"
+          echo "Date: $(date)"
