@@ -26,61 +26,72 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import subprocess
+          import re
 
           inbox = Path("Questions-Inbox.md")
           main_file = Path("Machine Learning Interview Questions.md")
 
           MAX_QUESTIONS = 10
 
-          lines = inbox.read_text(encoding="utf-8").splitlines()
+          text = inbox.read_text(encoding="utf-8")
 
-          questions = [
-              line[2:].strip()
-              for line in lines
-              if line.strip().startswith("- ")
-          ]
+          # Supports:
+          # 1. Question? Ans- Answer
+          # 1) Question? Ans- Answer
+          # - Question? Ans- Answer
+          pattern = re.compile(
+              r"^(?:\s*(?:\d+[.)]\s+|[-*]\s+))(.+?)\s+Ans[-–—]\s*(.+)$",
+              re.MULTILINE
+          )
 
-          questions = questions[:MAX_QUESTIONS]
+          matches = list(pattern.finditer(text))[:MAX_QUESTIONS]
 
-          if not questions:
+          if not matches:
               print("No new questions found.")
               raise SystemExit(0)
 
-          remaining_questions = questions.copy()
+          for number, match in enumerate(matches, start=1):
 
-          for number, question in enumerate(questions, start=1):
+              question = match.group(1).strip()
+              answer = match.group(2).strip()
 
-              current_lines = inbox.read_text(encoding="utf-8").splitlines()
+              print(f"Processing question {number}: {question}")
 
-              removed = False
-              new_lines = []
+              # Remove the processed question from the inbox.
+              current_text = inbox.read_text(encoding="utf-8")
 
-              for line in current_lines:
-                  if not removed and line.strip() == f"- {question}":
-                      removed = True
-                      continue
-                  new_lines.append(line)
+              escaped_question = re.escape(question)
+
+              remove_pattern = re.compile(
+                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+){escaped_question}\s+Ans[-–—]\s*.+$\n?",
+                  re.MULTILINE
+              )
+
+              new_text, count = remove_pattern.subn("", current_text, count=1)
+
+              if count == 0:
+                  raise RuntimeError(
+                      f"Could not remove processed question from inbox: {question}"
+                  )
 
               inbox.write_text(
-                  "\n".join(new_lines).rstrip() + "\n",
+                  new_text.rstrip() + "\n",
                   encoding="utf-8"
               )
 
+              # Read the main question file.
               content = main_file.read_text(encoding="utf-8").rstrip()
 
-              if not content.startswith("# Machine Learning Interview Questions"):
-                  raise RuntimeError("Main Markdown file has an unexpected structure.")
-
+              # Add the question and answer.
               question_block = f"""
 
           ---
 
-          ## Daily Question
+          ## Interview Question
 
           ### {question}
 
-          **Answer:** _To be added._
-
+          **Answer:** {answer}
           """
 
               main_file.write_text(
@@ -88,14 +99,26 @@ jobs:
                   encoding="utf-8"
               )
 
-              subprocess.run(["git", "add", str(inbox), str(main_file)], check=True)
-
+              # Commit and push this question separately.
               subprocess.run(
-                  ["git", "commit", "-m", f"Add daily ML question: {question}"],
+                  ["git", "add", str(inbox), str(main_file)],
                   check=True
               )
 
-              subprocess.run(["git", "push", "origin", "main"], check=True)
+              subprocess.run(
+                  [
+                      "git",
+                      "commit",
+                      "-m",
+                      f"Add ML interview question: {question}"
+                  ],
+                  check=True
+              )
+
+              subprocess.run(
+                  ["git", "push", "origin", "main"],
+                  check=True
+              )
 
               print(f"Successfully pushed question {number}: {question}")
 
