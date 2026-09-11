@@ -1,5 +1,3 @@
 # Questions Inbox
 
-16. What is data leakage in machine learning? Ans- Data leakage occurs when information that would not be available at prediction time is unintentionally used during model training. This can lead to unrealistically high validation or test performance while causing poor performance in production. Examples include scaling the entire dataset before splitting it into training and test sets, using future information in time-series prediction, or including features that are directly derived from the target variable. Data preprocessing and feature engineering should therefore be performed using only information available from the appropriate training data.
-
 17. What is the difference between a validation set and a test set? Ans- A validation set is used during model development to compare models, tune hyperparameters, and make design decisions. A test set is kept separate and is used only for the final evaluation of the selected model. The test set should not influence model selection because repeatedly using it during development can lead to the overfitting to the test data and produce an overly optimistic estimate of generalization performance.
