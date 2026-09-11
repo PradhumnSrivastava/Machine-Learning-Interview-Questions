@@ -1,7 +1,5 @@
 # Questions Inbox
 
-10. What is underfitting, and how can you fix it? Ans- Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both the training and test datasets. It can be addressed by using a more complex model, adding informative features, reducing excessive regularization, training the model for longer when appropriate, or improving the feature engineering process.
-
 11. What is the bias-variance tradeoff? Ans- The bias-variance tradeoff describes the balance between two sources of prediction error. High bias means the model makes overly simplistic assumptions and may underfit the data, while high variance means the model is highly sensitive to the training data and may overfit. The goal is to choose a model complexity that achieves a good balance between bias and variance and therefore generalizes well to unseen data.
 
 12. What is the difference between training error and test error? Ans- Training error is the error calculated on the same data used to train the model, while test error measures the model's performance on previously unseen data. A large difference between low training error and high test error is often an indication of overfitting. Test error provides a better estimate of how the model is likely to perform on new real-world data.

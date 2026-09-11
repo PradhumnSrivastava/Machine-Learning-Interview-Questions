@@ -118,3 +118,11 @@
 ### What is overfitting, and how can you prevent it?
 
 **Answer:** Overfitting occurs when a machine learning model learns the training data too closely, including noise and random patterns, resulting in excellent training performance but poor performance on unseen data. Common ways to reduce overfitting include using a simpler model, applying regularization, collecting more training data, performing feature selection, using cross-validation, applying early stopping in neural networks, and using ensemble methods such as random forests.
+
+---
+
+## Interview Question
+
+### What is underfitting, and how can you fix it?
+
+**Answer:** Underfitting occurs when a model is too simple to capture the underlying patterns in the data, resulting in poor performance on both the training and test datasets. It can be addressed by using a more complex model, adding informative features, reducing excessive regularization, training the model for longer when appropriate, or improving the feature engineering process.
