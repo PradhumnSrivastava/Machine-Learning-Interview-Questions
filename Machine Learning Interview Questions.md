@@ -63,3 +63,11 @@
 
 **Answer:** _To be added._
 
+---
+
+## Daily Question
+
+### What is underfitting?
+
+**Answer:** _To be added._
+
