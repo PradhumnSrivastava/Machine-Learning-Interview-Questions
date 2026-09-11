@@ -1,7 +1,5 @@
 # Questions Inbox
 
-11. What is the bias-variance tradeoff? Ans- The bias-variance tradeoff describes the balance between two sources of prediction error. High bias means the model makes overly simplistic assumptions and may underfit the data, while high variance means the model is highly sensitive to the training data and may overfit. The goal is to choose a model complexity that achieves a good balance between bias and variance and therefore generalizes well to unseen data.
-
 12. What is the difference between training error and test error? Ans- Training error is the error calculated on the same data used to train the model, while test error measures the model's performance on previously unseen data. A large difference between low training error and high test error is often an indication of overfitting. Test error provides a better estimate of how the model is likely to perform on new real-world data.
 
 13. What is the difference between parameters and hyperparameters? Ans- Parameters are values learned automatically by a machine learning model during training, such as the weights in linear regression or neural networks. Hyperparameters are configuration values specified before or during training that control the learning process or model structure, such as the learning rate, maximum tree depth, number of trees, or regularization strength. Hyperparameters are typically selected using techniques such as grid search, random search, or Bayesian optimization.
