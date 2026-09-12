@@ -1,1 +1,20 @@
 # Questions Inbox
+31. What is Linear Regression and how does it work? Ans- Linear Regression is a supervised machine learning algorithm used to predict a continuous target variable. It models the relationship between input features and the target using a linear equation. The model learns the coefficients that minimize the difference between actual and predicted values, typically using the Ordinary Least Squares method.
+
+32. What is the equation of simple Linear Regression? Ans- The equation of simple Linear Regression is ŷ = b₀ + b₁x, where ŷ is the predicted value, b₀ is the intercept, b₁ is the coefficient or slope, and x is the input feature. The slope represents the expected change in the target variable for a one-unit increase in the feature.
+
+33. What is the difference between simple and multiple Linear Regression? Ans- Simple Linear Regression uses only one independent variable to predict the target, while Multiple Linear Regression uses two or more independent variables. Simple Linear Regression can be represented as ŷ = b₀ + b₁x, whereas Multiple Linear Regression is represented as ŷ = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ.
+
+34. How does Ordinary Least Squares work in Linear Regression? Ans- Ordinary Least Squares estimates the model coefficients by minimizing the sum of squared residuals between the actual and predicted target values. The objective is to find the line that produces the smallest total squared error across the training observations.
+
+35. What is the cost function used in Linear Regression? Ans- A common cost function for Linear Regression is Mean Squared Error, which calculates the average of the squared differences between actual and predicted values. The model tries to find coefficients that minimize this error. Squaring the errors also gives greater importance to larger prediction errors.
+
+36. What assumptions does Linear Regression make? Ans- Important assumptions include linearity between predictors and the target, independence of observations, constant variance of errors or homoscedasticity, normally distributed residuals for reliable statistical inference, and low or no perfect multicollinearity among independent variables.
+
+37. What is the difference between R-squared and Adjusted R-squared? Ans- R-squared measures the proportion of variance in the target variable explained by the model. However, R-squared generally does not decrease when unnecessary features are added. Adjusted R-squared accounts for the number of predictors and can decrease when irrelevant features are added, making it more useful for comparing models with different numbers of features.
+
+38. What is multicollinearity in Linear Regression and why is it a problem? Ans- Multicollinearity occurs when two or more independent variables are highly correlated with each other. It makes coefficient estimates unstable, increases their variance, and makes it difficult to determine the individual effect of each feature. Variance Inflation Factor, or VIF, is commonly used to detect multicollinearity.
+
+39. What is the difference between Linear Regression and Logistic Regression? Ans- Linear Regression is primarily used to predict continuous numerical values, such as house prices or sales. Logistic Regression is used for classification problems and predicts probabilities that can be converted into class labels. Linear Regression produces an unbounded continuous output, while Logistic Regression uses a sigmoid function to produce values between 0 and 1.
+
+40. What is the difference between Linear Regression and Ridge Regression? Ans- Linear Regression minimizes the prediction error without a regularization penalty, while Ridge Regression adds an L2 regularization penalty to the loss function. Ridge Regression shrinks model coefficients toward zero and can help reduce overfitting and handle multicollinearity more effectively.
