@@ -294,3 +294,11 @@
 ### How does Ordinary Least Squares work in Linear Regression?
 
 **Answer:** Ordinary Least Squares estimates the model coefficients by minimizing the sum of squared residuals between the actual and predicted target values. The objective is to find the line that produces the smallest total squared error across the training observations.
+
+---
+
+## Interview Question
+
+### What is the cost function used in Linear Regression?
+
+**Answer:** A common cost function for Linear Regression is Mean Squared Error, which calculates the average of the squared differences between actual and predicted values. The model tries to find coefficients that minimize this error. Squaring the errors also gives greater importance to larger prediction errors.
