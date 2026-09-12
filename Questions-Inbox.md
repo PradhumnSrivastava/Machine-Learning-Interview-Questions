@@ -1,5 +1,4 @@
 # Questions Inbox
-31. What is Linear Regression and how does it work? Ans- Linear Regression is a supervised machine learning algorithm used to predict a continuous target variable. It models the relationship between input features and the target using a linear equation. The model learns the coefficients that minimize the difference between actual and predicted values, typically using the Ordinary Least Squares method.
 
 32. What is the equation of simple Linear Regression? Ans- The equation of simple Linear Regression is ŷ = b₀ + b₁x, where ŷ is the predicted value, b₀ is the intercept, b₁ is the coefficient or slope, and x is the input feature. The slope represents the expected change in the target variable for a one-unit increase in the feature.
 

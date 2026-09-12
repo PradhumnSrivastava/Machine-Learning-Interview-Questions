@@ -262,3 +262,11 @@
 ### What is the difference between bagging and boosting?
 
 **Answer:** Bagging trains multiple models independently, usually on different bootstrap samples, and combines their predictions to reduce variance. Boosting trains models sequentially, where each new model focuses more on errors made by previous models, primarily improving predictive performance and reducing bias.
+
+---
+
+## Interview Question
+
+### What is Linear Regression and how does it work?
+
+**Answer:** Linear Regression is a supervised machine learning algorithm used to predict a continuous target variable. It models the relationship between input features and the target using a linear equation. The model learns the coefficients that minimize the difference between actual and predicted values, typically using the Ordinary Least Squares method.
