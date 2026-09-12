@@ -302,3 +302,11 @@
 ### What is the cost function used in Linear Regression?
 
 **Answer:** A common cost function for Linear Regression is Mean Squared Error, which calculates the average of the squared differences between actual and predicted values. The model tries to find coefficients that minimize this error. Squaring the errors also gives greater importance to larger prediction errors.
+
+---
+
+## Interview Question
+
+### What assumptions does Linear Regression make?
+
+**Answer:** Important assumptions include linearity between predictors and the target, independence of observations, constant variance of errors or homoscedasticity, normally distributed residuals for reliable statistical inference, and low or no perfect multicollinearity among independent variables.
