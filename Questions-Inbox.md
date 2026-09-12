@@ -1,7 +1,5 @@
 # Questions Inbox
 
-32. What is the equation of simple Linear Regression? Ans- The equation of simple Linear Regression is ŷ = b₀ + b₁x, where ŷ is the predicted value, b₀ is the intercept, b₁ is the coefficient or slope, and x is the input feature. The slope represents the expected change in the target variable for a one-unit increase in the feature.
-
 33. What is the difference between simple and multiple Linear Regression? Ans- Simple Linear Regression uses only one independent variable to predict the target, while Multiple Linear Regression uses two or more independent variables. Simple Linear Regression can be represented as ŷ = b₀ + b₁x, whereas Multiple Linear Regression is represented as ŷ = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ.
 
 34. How does Ordinary Least Squares work in Linear Regression? Ans- Ordinary Least Squares estimates the model coefficients by minimizing the sum of squared residuals between the actual and predicted target values. The objective is to find the line that produces the smallest total squared error across the training observations.
