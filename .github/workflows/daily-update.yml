@@ -2,7 +2,10 @@ name: Daily ML Questions Update
 
 on:
   schedule:
-    - cron: "30 16 * * *"
+    # 2:00 PM IST = 08:30 UTC
+    - cron: "30 8 * * *"
+
+  # Manual testing ke liye
   workflow_dispatch:
 
 permissions:
@@ -15,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
@@ -35,10 +40,13 @@ jobs:
 
           text = inbox.read_text(encoding="utf-8")
 
-          # Supports:
+          # Supported formats:
+          #
           # 1. Question? Ans- Answer
           # 1) Question? Ans- Answer
           # - Question? Ans- Answer
+          # * Question? Ans- Answer
+
           pattern = re.compile(
               r"^(?:\s*(?:\d+[.)]\s+|[-*]\s+))(.+?)\s+Ans[-–—]\s*(.+)$",
               re.MULTILINE
@@ -50,16 +58,34 @@ jobs:
               print("No new questions found.")
               raise SystemExit(0)
 
+          print(f"Found {len(matches)} question(s).")
+
           for number, match in enumerate(matches, start=1):
 
               question = match.group(1).strip()
               answer = match.group(2).strip()
 
+              print()
+              print("=" * 80)
               print(f"Processing question {number}: {question}")
+              print("=" * 80)
 
-              # Remove the processed question from the inbox.
+              # Sync with the latest remote state
+              subprocess.run(
+                  ["git", "fetch", "origin", "main"],
+                  check=True
+              )
+
+              subprocess.run(
+                  ["git", "rebase", "origin/main"],
+                  check=True
+              )
+
+              # Read the latest files
               current_text = inbox.read_text(encoding="utf-8")
+              content = main_file.read_text(encoding="utf-8").rstrip()
 
+              # Remove this question from inbox
               escaped_question = re.escape(question)
 
               remove_pattern = re.compile(
@@ -67,11 +93,15 @@ jobs:
                   re.MULTILINE
               )
 
-              new_text, count = remove_pattern.subn("", current_text, count=1)
+              new_text, count = remove_pattern.subn(
+                  "",
+                  current_text,
+                  count=1
+              )
 
               if count == 0:
                   raise RuntimeError(
-                      f"Could not remove processed question from inbox: {question}"
+                      f"Could not remove question from inbox: {question}"
                   )
 
               inbox.write_text(
@@ -79,10 +109,7 @@ jobs:
                   encoding="utf-8"
               )
 
-              # Read the main question file.
-              content = main_file.read_text(encoding="utf-8").rstrip()
-
-              # Add the question and answer.
+              # Add question and answer to main file
               question_block = f"""
 
           ---
@@ -99,7 +126,7 @@ jobs:
                   encoding="utf-8"
               )
 
-              # Commit and push this question separately.
+              # Create a separate commit for this question
               subprocess.run(
                   ["git", "add", str(inbox), str(main_file)],
                   check=True
@@ -115,11 +142,19 @@ jobs:
                   check=True
               )
 
+              # Push this question separately
               subprocess.run(
-                  ["git", "push", "origin", "main"],
+                  ["git", "push", "origin", "HEAD:main"],
                   check=True
               )
 
-              print(f"Successfully pushed question {number}: {question}")
+              print(
+                  f"SUCCESS: Question {number} committed and pushed."
+              )
+
+          print()
+          print("=" * 80)
+          print(f"Finished processing {len(matches)} question(s).")
+          print("=" * 80)
 
           PY
