@@ -1,7 +1,5 @@
 # Questions Inbox
 
-33. What is the difference between simple and multiple Linear Regression? Ans- Simple Linear Regression uses only one independent variable to predict the target, while Multiple Linear Regression uses two or more independent variables. Simple Linear Regression can be represented as ŷ = b₀ + b₁x, whereas Multiple Linear Regression is represented as ŷ = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ.
-
 34. How does Ordinary Least Squares work in Linear Regression? Ans- Ordinary Least Squares estimates the model coefficients by minimizing the sum of squared residuals between the actual and predicted target values. The objective is to find the line that produces the smallest total squared error across the training observations.
 
 35. What is the cost function used in Linear Regression? Ans- A common cost function for Linear Regression is Mean Squared Error, which calculates the average of the squared differences between actual and predicted values. The model tries to find coefficients that minimize this error. Squaring the errors also gives greater importance to larger prediction errors.
