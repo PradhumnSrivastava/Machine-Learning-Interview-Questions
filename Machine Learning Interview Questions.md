@@ -318,3 +318,11 @@
 ### What is the difference between R-squared and Adjusted R-squared?
 
 **Answer:** R-squared measures the proportion of variance in the target variable explained by the model. However, R-squared generally does not decrease when unnecessary features are added. Adjusted R-squared accounts for the number of predictors and can decrease when irrelevant features are added, making it more useful for comparing models with different numbers of features.
+
+---
+
+## Interview Question
+
+### What is multicollinearity in Linear Regression and why is it a problem?
+
+**Answer:** Multicollinearity occurs when two or more independent variables are highly correlated with each other. It makes coefficient estimates unstable, increases their variance, and makes it difficult to determine the individual effect of each feature. Variance Inflation Factor, or VIF, is commonly used to detect multicollinearity.
