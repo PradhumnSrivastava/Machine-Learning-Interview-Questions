@@ -230,3 +230,11 @@
 ### What is the difference between L1 and L2 regularization?
 
 **Answer:** L1 regularization adds the absolute values of model coefficients to the loss function and can produce sparse models by making some coefficients exactly zero. L2 regularization adds the squared values of coefficients and generally shrinks them toward zero. L1 is useful for feature selection, while L2 is useful for controlling model complexity.
+
+---
+
+## Interview Question
+
+### What is hyperparameter tuning?
+
+**Answer:** Hyperparameter tuning is the process of finding the best values for parameters that are set before model training, such as learning rate, tree depth, number of estimators, or regularization strength. Common techniques include grid search, random search, and Bayesian optimization.
