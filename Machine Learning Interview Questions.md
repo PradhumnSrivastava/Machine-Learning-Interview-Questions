@@ -310,3 +310,11 @@
 ### What assumptions does Linear Regression make?
 
 **Answer:** Important assumptions include linearity between predictors and the target, independence of observations, constant variance of errors or homoscedasticity, normally distributed residuals for reliable statistical inference, and low or no perfect multicollinearity among independent variables.
+
+---
+
+## Interview Question
+
+### What is the difference between R-squared and Adjusted R-squared?
+
+**Answer:** R-squared measures the proportion of variance in the target variable explained by the model. However, R-squared generally does not decrease when unnecessary features are added. Adjusted R-squared accounts for the number of predictors and can decrease when irrelevant features are added, making it more useful for comparing models with different numbers of features.
