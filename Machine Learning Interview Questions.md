@@ -326,3 +326,11 @@
 ### What is multicollinearity in Linear Regression and why is it a problem?
 
 **Answer:** Multicollinearity occurs when two or more independent variables are highly correlated with each other. It makes coefficient estimates unstable, increases their variance, and makes it difficult to determine the individual effect of each feature. Variance Inflation Factor, or VIF, is commonly used to detect multicollinearity.
+
+---
+
+## Interview Question
+
+### What is the difference between Linear Regression and Logistic Regression?
+
+**Answer:** Linear Regression is primarily used to predict continuous numerical values, such as house prices or sales. Logistic Regression is used for classification problems and predicts probabilities that can be converted into class labels. Linear Regression produces an unbounded continuous output, while Logistic Regression uses a sigmoid function to produce values between 0 and 1.
