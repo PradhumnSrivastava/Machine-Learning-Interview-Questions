@@ -2,8 +2,8 @@ name: Daily ML Questions Update
 
 on:
   schedule:
-    # 2:05 PM IST = 08:35 UTC
-    - cron: "35 8 * * *"
+    # 2:15 PM IST = 08:45 UTC
+    - cron: "45 8 * * *"
 
   # Manual testing ke liye
   workflow_dispatch:
