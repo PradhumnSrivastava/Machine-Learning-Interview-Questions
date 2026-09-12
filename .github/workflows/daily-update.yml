@@ -2,8 +2,8 @@ name: Daily ML Questions Update
 
 on:
   schedule:
-    # 2:15 PM IST = 08:45 UTC
-    - cron: "45 8 * * *"
+    # 3:00 PM IST = 09:30 UTC
+    - cron: "30 9 * * *"
 
   # Manual testing ke liye
   workflow_dispatch:
@@ -23,8 +23,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "PradhumnSrivastava"
+          git config user.email "177670434+PradhumnSrivastava@users.noreply.github.com"
 
       - name: Process up to 10 questions
         run: |
@@ -38,6 +38,7 @@ jobs:
 
           MAX_QUESTIONS = 10
 
+          # Read inbox
           text = inbox.read_text(encoding="utf-8")
 
           # Supported formats:
@@ -70,32 +71,38 @@ jobs:
               print(f"Processing question {number}: {question}")
               print("=" * 80)
 
-              # Sync with the latest remote state
+              # Sync with latest remote main
               subprocess.run(
                   ["git", "fetch", "origin", "main"],
                   check=True
               )
 
               subprocess.run(
-                  ["git", "rebase", "origin/main"],
+                  ["git", "reset", "--hard", "origin/main"],
                   check=True
               )
 
-              # Read the latest files
-              current_text = inbox.read_text(encoding="utf-8")
-              content = main_file.read_text(encoding="utf-8").rstrip()
+              # Read latest files
+              current_inbox = inbox.read_text(
+                  encoding="utf-8"
+              )
+
+              current_content = main_file.read_text(
+                  encoding="utf-8"
+              ).rstrip()
 
               # Remove this question from inbox
               escaped_question = re.escape(question)
 
               remove_pattern = re.compile(
-                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+){escaped_question}\s+Ans[-–—]\s*.+$\n?",
+                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+){escaped_question}"
+                  rf"\s+Ans[-–—]\s*.+$\n?",
                   re.MULTILINE
               )
 
-              new_text, count = remove_pattern.subn(
+              new_inbox, count = remove_pattern.subn(
                   "",
-                  current_text,
+                  current_inbox,
                   count=1
               )
 
@@ -105,7 +112,7 @@ jobs:
                   )
 
               inbox.write_text(
-                  new_text.rstrip() + "\n",
+                  new_inbox.rstrip() + "\n",
                   encoding="utf-8"
               )
 
@@ -122,16 +129,22 @@ jobs:
           """
 
               main_file.write_text(
-                  content + question_block,
+                  current_content + question_block,
                   encoding="utf-8"
               )
 
-              # Create a separate commit for this question
+              # Stage files
               subprocess.run(
-                  ["git", "add", str(inbox), str(main_file)],
+                  [
+                      "git",
+                      "add",
+                      str(inbox),
+                      str(main_file)
+                  ],
                   check=True
               )
 
+              # Create separate commit
               subprocess.run(
                   [
                       "git",
@@ -144,7 +157,12 @@ jobs:
 
               # Push this question separately
               subprocess.run(
-                  ["git", "push", "origin", "HEAD:main"],
+                  [
+                      "git",
+                      "push",
+                      "origin",
+                      "HEAD:main"
+                  ],
                   check=True
               )
 
@@ -154,7 +172,9 @@ jobs:
 
           print()
           print("=" * 80)
-          print(f"Finished processing {len(matches)} question(s).")
+          print(
+              f"Finished processing {len(matches)} question(s)."
+          )
           print("=" * 80)
 
           PY
