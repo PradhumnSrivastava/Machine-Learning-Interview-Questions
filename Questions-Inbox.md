@@ -1,7 +1,5 @@
 # Questions Inbox
 
-23. What is the bias-variance tradeoff? Ans- The bias-variance tradeoff is the balance between underfitting and overfitting. High bias means the model is too simple and tends to underfit, while high variance means the model is too sensitive to training data and tends to overfit. A good model aims to find a balance between bias and variance.
-
 24. What is cross-validation and why is it used? Ans- Cross-validation is a model evaluation technique in which the dataset is divided into multiple folds. The model is trained on some folds and validated on the remaining fold, repeating the process so each fold is used for validation. It provides a more reliable estimate of model performance and helps in model selection and hyperparameter tuning.
 
 25. What is regularization in machine learning? Ans- Regularization is a technique used to reduce overfitting by adding a penalty for model complexity to the loss function. L1 regularization can drive some feature coefficients to zero, while L2 regularization shrinks coefficients toward zero without usually making them exactly zero.

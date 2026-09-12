@@ -198,3 +198,11 @@
 ### What is underfitting in machine learning?
 
 **Answer:** Underfitting occurs when a model is too simple to capture the underlying patterns in the data. It performs poorly on both training and unseen data. It can be reduced by using a more complex model, adding useful features, reducing excessive regularization, or training the model for longer.
+
+---
+
+## Interview Question
+
+### What is the bias-variance tradeoff?
+
+**Answer:** The bias-variance tradeoff is the balance between underfitting and overfitting. High bias means the model is too simple and tends to underfit, while high variance means the model is too sensitive to training data and tends to overfit. A good model aims to find a balance between bias and variance.
