@@ -206,3 +206,11 @@
 ### What is the bias-variance tradeoff?
 
 **Answer:** The bias-variance tradeoff is the balance between underfitting and overfitting. High bias means the model is too simple and tends to underfit, while high variance means the model is too sensitive to training data and tends to overfit. A good model aims to find a balance between bias and variance.
+
+---
+
+## Interview Question
+
+### What is cross-validation and why is it used?
+
+**Answer:** Cross-validation is a model evaluation technique in which the dataset is divided into multiple folds. The model is trained on some folds and validated on the remaining fold, repeating the process so each fold is used for validation. It provides a more reliable estimate of model performance and helps in model selection and hyperparameter tuning.
