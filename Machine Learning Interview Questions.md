@@ -182,3 +182,11 @@
 ### What is the difference between a validation set and a test set?
 
 **Answer:** A validation set is used during model development to compare models, tune hyperparameters, and make design decisions. A test set is kept separate and is used only for the final evaluation of the selected model. The test set should not influence model selection because repeatedly using it during development can lead to the overfitting to the test data and produce an overly optimistic estimate of generalization performance.
+
+---
+
+## Interview Question
+
+### What is overfitting and how can you prevent it?
+
+**Answer:** Overfitting occurs when a machine learning model learns the training data too closely, including noise and random patterns, resulting in poor performance on unseen data. It can be prevented using cross-validation, regularization, pruning, feature selection, dropout for neural networks, and by collecting more training data.
