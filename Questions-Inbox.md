@@ -1,7 +1,5 @@
 # Questions Inbox
 
-44. What is homoscedasticity and why is it important in Linear Regression? Ans- Homoscedasticity means that the variance of the residuals remains approximately constant across different levels of the predicted values or independent variables. It is important because heteroscedasticity can make standard errors and statistical inference unreliable, even though the coefficient estimates may still be unbiased under certain conditions.
-
 45. What is heteroscedasticity in Linear Regression and how can you detect it? Ans- Heteroscedasticity occurs when the variance of residuals changes across different levels of the predictors or fitted values. It can be detected using residual plots, where a funnel-shaped pattern may indicate unequal variance, or statistical tests such as the Breusch-Pagan test. Transformations such as log transformation or using robust standard errors can help address it.
 
 46. Why can outliers be a problem in Linear Regression? Ans- Linear Regression is sensitive to outliers because the squared-error loss gives large errors disproportionately high influence. A few extreme observations can significantly change the fitted coefficients and regression line. Outliers should be investigated carefully and handled using valid methods such as data correction, transformation, robust regression, or appropriate removal when justified.
