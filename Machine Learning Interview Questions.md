@@ -342,3 +342,11 @@
 ### What is the difference between Linear Regression and Ridge Regression?
 
 **Answer:** Linear Regression minimizes the prediction error without a regularization penalty, while Ridge Regression adds an L2 regularization penalty to the loss function. Ridge Regression shrinks model coefficients toward zero and can help reduce overfitting and handle multicollinearity more effectively.
+
+---
+
+## Interview Question
+
+### Why is Mean Squared Error commonly used as the loss function in Linear Regression?
+
+**Answer:** Mean Squared Error measures the average squared difference between actual and predicted values. Squaring makes all errors positive and penalizes larger errors more heavily. It is also differentiable, which makes it convenient for optimization methods such as gradient descent.

@@ -1,5 +1,4 @@
 # Questions Inbox
-41. Why is Mean Squared Error commonly used as the loss function in Linear Regression? Ans- Mean Squared Error measures the average squared difference between actual and predicted values. Squaring makes all errors positive and penalizes larger errors more heavily. It is also differentiable, which makes it convenient for optimization methods such as gradient descent.
 
 42. What is the role of the intercept in Linear Regression? Ans- The intercept is the predicted value of the target when all input features are zero. It represents the point where the regression line or hyperplane crosses the target axis. In multiple Linear Regression, it provides the baseline prediction before considering the effects of the features.
 
