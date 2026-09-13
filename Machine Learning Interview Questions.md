@@ -358,3 +358,11 @@
 ### What is the role of the intercept in Linear Regression?
 
 **Answer:** The intercept is the predicted value of the target when all input features are zero. It represents the point where the regression line or hyperplane crosses the target axis. In multiple Linear Regression, it provides the baseline prediction before considering the effects of the features.
+
+---
+
+## Interview Question
+
+### What is a residual in Linear Regression?
+
+**Answer:** A residual is the difference between an observed target value and the value predicted by the regression model. It is calculated as residual = actual value - predicted value. Residuals are useful for evaluating model fit and checking whether important assumptions of Linear Regression are satisfied.

@@ -1,7 +1,5 @@
 # Questions Inbox
 
-43. What is a residual in Linear Regression? Ans- A residual is the difference between an observed target value and the value predicted by the regression model. It is calculated as residual = actual value - predicted value. Residuals are useful for evaluating model fit and checking whether important assumptions of Linear Regression are satisfied.
-
 44. What is homoscedasticity and why is it important in Linear Regression? Ans- Homoscedasticity means that the variance of the residuals remains approximately constant across different levels of the predicted values or independent variables. It is important because heteroscedasticity can make standard errors and statistical inference unreliable, even though the coefficient estimates may still be unbiased under certain conditions.
 
 45. What is heteroscedasticity in Linear Regression and how can you detect it? Ans- Heteroscedasticity occurs when the variance of residuals changes across different levels of the predictors or fitted values. It can be detected using residual plots, where a funnel-shaped pattern may indicate unequal variance, or statistical tests such as the Breusch-Pagan test. Transformations such as log transformation or using robust standard errors can help address it.
