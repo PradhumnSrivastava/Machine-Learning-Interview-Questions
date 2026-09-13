@@ -398,3 +398,11 @@
 ### What is the difference between correlation and the coefficient in Linear Regression?
 
 **Answer:** Correlation measures the strength and direction of the linear relationship between two variables and is symmetric, meaning the correlation between X and Y is the same as between Y and X. A regression coefficient describes the expected change in the target for a one-unit change in a predictor while holding other predictors constant in a multiple regression model.
+
+---
+
+## Interview Question
+
+### Can Linear Regression be solved using Gradient Descent?
+
+**Answer:** Yes, Linear Regression can be optimized using Gradient Descent. Gradient Descent starts with initial parameter values and repeatedly updates the coefficients in the direction that reduces the loss function. For large datasets, variants such as Stochastic Gradient Descent or Mini-Batch Gradient Descent can be more computationally efficient than calculating the exact solution using the normal equation.
