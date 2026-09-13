@@ -390,3 +390,11 @@
 ### Why can outliers be a problem in Linear Regression?
 
 **Answer:** Linear Regression is sensitive to outliers because the squared-error loss gives large errors disproportionately high influence. A few extreme observations can significantly change the fitted coefficients and regression line. Outliers should be investigated carefully and handled using valid methods such as data correction, transformation, robust regression, or appropriate removal when justified.
+
+---
+
+## Interview Question
+
+### What is the difference between correlation and the coefficient in Linear Regression?
+
+**Answer:** Correlation measures the strength and direction of the linear relationship between two variables and is symmetric, meaning the correlation between X and Y is the same as between Y and X. A regression coefficient describes the expected change in the target for a one-unit change in a predictor while holding other predictors constant in a multiple regression model.
