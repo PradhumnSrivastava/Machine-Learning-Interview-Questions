@@ -1,7 +1,5 @@
 # Questions Inbox
 
-46. Why can outliers be a problem in Linear Regression? Ans- Linear Regression is sensitive to outliers because the squared-error loss gives large errors disproportionately high influence. A few extreme observations can significantly change the fitted coefficients and regression line. Outliers should be investigated carefully and handled using valid methods such as data correction, transformation, robust regression, or appropriate removal when justified.
-
 47. What is the difference between correlation and the coefficient in Linear Regression? Ans- Correlation measures the strength and direction of the linear relationship between two variables and is symmetric, meaning the correlation between X and Y is the same as between Y and X. A regression coefficient describes the expected change in the target for a one-unit change in a predictor while holding other predictors constant in a multiple regression model.
 
 48. Can Linear Regression be solved using Gradient Descent? Ans- Yes, Linear Regression can be optimized using Gradient Descent. Gradient Descent starts with initial parameter values and repeatedly updates the coefficients in the direction that reduces the loss function. For large datasets, variants such as Stochastic Gradient Descent or Mini-Batch Gradient Descent can be more computationally efficient than calculating the exact solution using the normal equation.

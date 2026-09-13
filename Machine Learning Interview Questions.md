@@ -382,3 +382,11 @@
 ### What is heteroscedasticity in Linear Regression and how can you detect it?
 
 **Answer:** Heteroscedasticity occurs when the variance of residuals changes across different levels of the predictors or fitted values. It can be detected using residual plots, where a funnel-shaped pattern may indicate unequal variance, or statistical tests such as the Breusch-Pagan test. Transformations such as log transformation or using robust standard errors can help address it.
+
+---
+
+## Interview Question
+
+### Why can outliers be a problem in Linear Regression?
+
+**Answer:** Linear Regression is sensitive to outliers because the squared-error loss gives large errors disproportionately high influence. A few extreme observations can significantly change the fitted coefficients and regression line. Outliers should be investigated carefully and handled using valid methods such as data correction, transformation, robust regression, or appropriate removal when justified.
