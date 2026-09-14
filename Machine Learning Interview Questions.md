@@ -422,3 +422,11 @@
 ### Why should categorical variables be encoded before using Linear Regression?
 
 **Answer:** Linear Regression requires numerical input features, so categorical variables must be converted into numerical representations. One common approach is One-Hot Encoding, which creates binary indicator variables for categories. Care must be taken to avoid perfect multicollinearity, often by dropping one category when an intercept is included.
+
+---
+
+## Interview Question
+
+### Why does the Ordinary Least Squares estimator have a closed-form solution, and when can this solution become problematic?
+
+**Answer:** Ordinary Least Squares minimizes a quadratic loss function, whose derivative with respect to the coefficients produces a system of linear equations. Solving these equations gives the closed-form solution β = (XᵀX)⁻¹Xᵀy. It can become problematic when XᵀX is singular or nearly singular due to perfect or strong multicollinearity, and matrix inversion can also be computationally expensive when the number of features is very large.
