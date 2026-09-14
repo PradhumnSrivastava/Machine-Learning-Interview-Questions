@@ -454,3 +454,11 @@
 ### What happens to Linear Regression coefficients when there is perfect multicollinearity?
 
 **Answer:** With perfect multicollinearity, one or more predictors can be represented exactly as a linear combination of other predictors. As a result, XᵀX becomes singular and the unique OLS coefficient estimates cannot be computed using the standard normal equation. The issue can be addressed by removing redundant features or using regularization techniques such as Ridge Regression.
+
+---
+
+## Interview Question
+
+### Why does Ridge Regression help with multicollinearity, and why does Lasso behave differently?
+
+**Answer:** Ridge Regression adds an L2 penalty that shrinks correlated feature coefficients toward zero, which reduces coefficient variance and improves numerical stability. Lasso adds an L1 penalty, which can force some coefficients exactly to zero and therefore perform implicit feature selection. With highly correlated features, Lasso may arbitrarily select one or distribute the effect unevenly, while Ridge tends to distribute weights more smoothly among correlated predictors.
