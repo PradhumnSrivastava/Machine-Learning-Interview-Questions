@@ -446,3 +446,11 @@
 ### Why is the OLS estimator unbiased, and what assumption is mainly responsible for this property?
 
 **Answer:** The OLS estimator is unbiased when the conditional expectation of the error given the predictors is zero, written as E[ε|X] = 0. This means that the predictors do not systematically contain information about the error term. Under this assumption, the expected value of the estimated coefficients equals the true population coefficients.
+
+---
+
+## Interview Question
+
+### What happens to Linear Regression coefficients when there is perfect multicollinearity?
+
+**Answer:** With perfect multicollinearity, one or more predictors can be represented exactly as a linear combination of other predictors. As a result, XᵀX becomes singular and the unique OLS coefficient estimates cannot be computed using the standard normal equation. The issue can be addressed by removing redundant features or using regularization techniques such as Ridge Regression.
