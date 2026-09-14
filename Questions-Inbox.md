@@ -1,7 +1,5 @@
 # Questions Inbox
 
-58. How does omitted variable bias affect a Linear Regression model? Ans- Omitted variable bias occurs when an important variable that affects the target is excluded from the model and is correlated with an included predictor. The included predictor can then partially capture the effect of the omitted variable, causing its estimated coefficient to be biased. Adding the relevant variable or using appropriate causal or instrumental-variable methods can help address the problem.
-
 59. Why does scaling affect Gradient Descent in Linear Regression but not the OLS prediction theoretically? Ans- Feature scaling can greatly affect the optimization path and convergence speed of Gradient Descent because features with very different scales create an elongated loss surface, making optimization slower. In ordinary Linear Regression, rescaling a feature changes its coefficient correspondingly, but the model's fitted predictions remain theoretically equivalent when the transformation is handled consistently.
 
 60. What is the difference between confidence intervals and prediction intervals in Linear Regression? Ans- A confidence interval estimates the uncertainty around the expected mean response at a particular predictor value, while a prediction interval estimates the range in which an individual future observation is expected to fall. Prediction intervals are wider because they include both uncertainty in estimating the mean response and the natural variability of individual observations.
