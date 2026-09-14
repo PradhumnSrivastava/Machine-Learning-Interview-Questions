@@ -1,7 +1,5 @@
 # Questions Inbox
 
-56. What is the difference between statistical significance of a regression coefficient and its practical significance? Ans- Statistical significance indicates whether the observed coefficient is unlikely to have occurred by chance under a specified null hypothesis, often evaluated using a p-value and confidence interval. Practical significance concerns whether the magnitude of the effect is large enough to matter in the real-world application. A coefficient can be statistically significant but practically negligible, especially with a very large dataset.
-
 57. What is endogeneity in Linear Regression, and why does it cause biased estimates? Ans- Endogeneity occurs when a predictor is correlated with the error term, meaning E[ε|X] is not zero. It can arise from omitted variables, measurement error, or simultaneous causality. When endogeneity exists, OLS coefficients can become biased and inconsistent, meaning increasing the sample size does not necessarily make the estimates converge to the true parameters.
 
 58. How does omitted variable bias affect a Linear Regression model? Ans- Omitted variable bias occurs when an important variable that affects the target is excluded from the model and is correlated with an included predictor. The included predictor can then partially capture the effect of the omitted variable, causing its estimated coefficient to be biased. Adding the relevant variable or using appropriate causal or instrumental-variable methods can help address the problem.

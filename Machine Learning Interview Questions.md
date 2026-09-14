@@ -462,3 +462,11 @@
 ### Why does Ridge Regression help with multicollinearity, and why does Lasso behave differently?
 
 **Answer:** Ridge Regression adds an L2 penalty that shrinks correlated feature coefficients toward zero, which reduces coefficient variance and improves numerical stability. Lasso adds an L1 penalty, which can force some coefficients exactly to zero and therefore perform implicit feature selection. With highly correlated features, Lasso may arbitrarily select one or distribute the effect unevenly, while Ridge tends to distribute weights more smoothly among correlated predictors.
+
+---
+
+## Interview Question
+
+### What is the difference between statistical significance of a regression coefficient and its practical significance?
+
+**Answer:** Statistical significance indicates whether the observed coefficient is unlikely to have occurred by chance under a specified null hypothesis, often evaluated using a p-value and confidence interval. Practical significance concerns whether the magnitude of the effect is large enough to matter in the real-world application. A coefficient can be statistically significant but practically negligible, especially with a very large dataset.
