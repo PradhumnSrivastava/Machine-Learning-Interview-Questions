@@ -486,3 +486,11 @@
 ### How does omitted variable bias affect a Linear Regression model?
 
 **Answer:** Omitted variable bias occurs when an important variable that affects the target is excluded from the model and is correlated with an included predictor. The included predictor can then partially capture the effect of the omitted variable, causing its estimated coefficient to be biased. Adding the relevant variable or using appropriate causal or instrumental-variable methods can help address the problem.
+
+---
+
+## Interview Question
+
+### Why does scaling affect Gradient Descent in Linear Regression but not the OLS prediction theoretically?
+
+**Answer:** Feature scaling can greatly affect the optimization path and convergence speed of Gradient Descent because features with very different scales create an elongated loss surface, making optimization slower. In ordinary Linear Regression, rescaling a feature changes its coefficient correspondingly, but the model's fitted predictions remain theoretically equivalent when the transformation is handled consistently.

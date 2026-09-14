@@ -1,5 +1,3 @@
 # Questions Inbox
 
-59. Why does scaling affect Gradient Descent in Linear Regression but not the OLS prediction theoretically? Ans- Feature scaling can greatly affect the optimization path and convergence speed of Gradient Descent because features with very different scales create an elongated loss surface, making optimization slower. In ordinary Linear Regression, rescaling a feature changes its coefficient correspondingly, but the model's fitted predictions remain theoretically equivalent when the transformation is handled consistently.
-
 60. What is the difference between confidence intervals and prediction intervals in Linear Regression? Ans- A confidence interval estimates the uncertainty around the expected mean response at a particular predictor value, while a prediction interval estimates the range in which an individual future observation is expected to fall. Prediction intervals are wider because they include both uncertainty in estimating the mean response and the natural variability of individual observations.
