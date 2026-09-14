@@ -430,3 +430,11 @@
 ### Why does the Ordinary Least Squares estimator have a closed-form solution, and when can this solution become problematic?
 
 **Answer:** Ordinary Least Squares minimizes a quadratic loss function, whose derivative with respect to the coefficients produces a system of linear equations. Solving these equations gives the closed-form solution β = (XᵀX)⁻¹Xᵀy. It can become problematic when XᵀX is singular or nearly singular due to perfect or strong multicollinearity, and matrix inversion can also be computationally expensive when the number of features is very large.
+
+---
+
+## Interview Question
+
+### What is the Gauss-Markov theorem and why is it important for Linear Regression?
+
+**Answer:** The Gauss-Markov theorem states that under assumptions such as linearity, zero conditional mean of errors, no perfect multicollinearity, and constant error variance, the Ordinary Least Squares estimator is the Best Linear Unbiased Estimator, or BLUE. Best means it has the lowest variance among all linear unbiased estimators. The theorem does not require normally distributed errors.

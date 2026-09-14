@@ -1,7 +1,5 @@
 # Questions Inbox
 
-52. What is the Gauss-Markov theorem and why is it important for Linear Regression? Ans- The Gauss-Markov theorem states that under assumptions such as linearity, zero conditional mean of errors, no perfect multicollinearity, and constant error variance, the Ordinary Least Squares estimator is the Best Linear Unbiased Estimator, or BLUE. Best means it has the lowest variance among all linear unbiased estimators. The theorem does not require normally distributed errors.
-
 53. Why is the OLS estimator unbiased, and what assumption is mainly responsible for this property? Ans- The OLS estimator is unbiased when the conditional expectation of the error given the predictors is zero, written as E[ε|X] = 0. This means that the predictors do not systematically contain information about the error term. Under this assumption, the expected value of the estimated coefficients equals the true population coefficients.
 
 54. What happens to Linear Regression coefficients when there is perfect multicollinearity? Ans- With perfect multicollinearity, one or more predictors can be represented exactly as a linear combination of other predictors. As a result, XᵀX becomes singular and the unique OLS coefficient estimates cannot be computed using the standard normal equation. The issue can be addressed by removing redundant features or using regularization techniques such as Ridge Regression.
