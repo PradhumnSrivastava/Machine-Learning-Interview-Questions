@@ -1,7 +1,5 @@
 # Questions Inbox
 
-57. What is endogeneity in Linear Regression, and why does it cause biased estimates? Ans- Endogeneity occurs when a predictor is correlated with the error term, meaning E[ε|X] is not zero. It can arise from omitted variables, measurement error, or simultaneous causality. When endogeneity exists, OLS coefficients can become biased and inconsistent, meaning increasing the sample size does not necessarily make the estimates converge to the true parameters.
-
 58. How does omitted variable bias affect a Linear Regression model? Ans- Omitted variable bias occurs when an important variable that affects the target is excluded from the model and is correlated with an included predictor. The included predictor can then partially capture the effect of the omitted variable, causing its estimated coefficient to be biased. Adding the relevant variable or using appropriate causal or instrumental-variable methods can help address the problem.
 
 59. Why does scaling affect Gradient Descent in Linear Regression but not the OLS prediction theoretically? Ans- Feature scaling can greatly affect the optimization path and convergence speed of Gradient Descent because features with very different scales create an elongated loss surface, making optimization slower. In ordinary Linear Regression, rescaling a feature changes its coefficient correspondingly, but the model's fitted predictions remain theoretically equivalent when the transformation is handled consistently.

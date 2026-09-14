@@ -470,3 +470,11 @@
 ### What is the difference between statistical significance of a regression coefficient and its practical significance?
 
 **Answer:** Statistical significance indicates whether the observed coefficient is unlikely to have occurred by chance under a specified null hypothesis, often evaluated using a p-value and confidence interval. Practical significance concerns whether the magnitude of the effect is large enough to matter in the real-world application. A coefficient can be statistically significant but practically negligible, especially with a very large dataset.
+
+---
+
+## Interview Question
+
+### What is endogeneity in Linear Regression, and why does it cause biased estimates?
+
+**Answer:** Endogeneity occurs when a predictor is correlated with the error term, meaning E[ε|X] is not zero. It can arise from omitted variables, measurement error, or simultaneous causality. When endogeneity exists, OLS coefficients can become biased and inconsistent, meaning increasing the sample size does not necessarily make the estimates converge to the true parameters.
