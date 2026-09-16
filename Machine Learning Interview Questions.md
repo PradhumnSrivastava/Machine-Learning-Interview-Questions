@@ -485,3 +485,11 @@
 ### What is Label Encoding, and why can it be problematic for nominal categorical features?
 
 **Answer:** Label Encoding assigns an integer to each category, such as Red = 0, Blue = 1, and Green = 2. For nominal variables, this can be problematic because the numerical values may create an artificial ordering that does not actually exist. A model could incorrectly interpret Green as being greater than Blue and Blue as greater than Red. Therefore, One-Hot Encoding or another suitable encoding method is often preferred for nominal features.
+
+---
+
+## Interview Question
+
+### Suppose a categorical feature contains 100 different categories. How would you preprocess it?
+
+**Answer:** I would first examine the feature's cardinality, frequency distribution, relationship with the target, and the type of model being used. One-Hot Encoding would create 100 features, which may be acceptable for some datasets but inefficient for others. Alternatives include frequency encoding, target encoding, hashing, or grouping rare categories into an "Other" category. The choice should also consider dataset size, overfitting risk, computational cost, and interpretability.
