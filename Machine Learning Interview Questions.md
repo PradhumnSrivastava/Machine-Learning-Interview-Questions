@@ -429,3 +429,11 @@
 ### What is data preprocessing, and why is it important in a machine learning pipeline?
 
 **Answer:** Data preprocessing is the process of cleaning, transforming, and preparing raw data before it is given to a machine learning model. It includes tasks such as handling missing values, encoding categorical variables, scaling numerical features, and removing inconsistent data. It is important because real-world data is often incomplete, noisy, or unsuitable for direct use by machine learning algorithms.
+
+---
+
+## Interview Question
+
+### What is the difference between numerical, categorical, ordinal, and nominal data?
+
+**Answer:** Numerical data represents quantities and can be discrete or continuous, such as age, salary, or height. Categorical data represents groups or labels, such as city or department. Ordinal data is categorical data with a meaningful order, such as Low, Medium, and High. Nominal data consists of categories without any meaningful order, such as Red, Blue, and Green.

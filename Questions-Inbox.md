@@ -1,7 +1,5 @@
 # Questions Inbox
 
-42. What is the difference between numerical, categorical, ordinal, and nominal data? Ans- Numerical data represents quantities and can be discrete or continuous, such as age, salary, or height. Categorical data represents groups or labels, such as city or department. Ordinal data is categorical data with a meaningful order, such as Low, Medium, and High. Nominal data consists of categories without any meaningful order, such as Red, Blue, and Green.
-
 43. How do you handle missing values in a dataset? Ans- Missing values can be handled using techniques such as mean, median, or mode imputation, depending on the type of feature and data distribution. More advanced approaches include KNN imputation, regression-based imputation, and iterative imputation. If a feature contains an excessive amount of missing data and provides limited useful information, it may also be removed. The choice depends on the amount, pattern, and nature of the missing values.
 
 44. What is the difference between mean, median, and mode imputation? Ans- Mean imputation replaces missing numerical values with the average of the observed values. Median imputation replaces them with the middle value after sorting the data. Mode imputation replaces missing values with the most frequently occurring value. Median is generally preferred when numerical data is highly skewed or contains outliers because it is less affected by extreme values than the mean.
