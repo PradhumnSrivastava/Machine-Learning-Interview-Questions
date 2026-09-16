@@ -445,3 +445,11 @@
 ### How do you handle missing values in a dataset?
 
 **Answer:** Missing values can be handled using techniques such as mean, median, or mode imputation, depending on the type of feature and data distribution. More advanced approaches include KNN imputation, regression-based imputation, and iterative imputation. If a feature contains an excessive amount of missing data and provides limited useful information, it may also be removed. The choice depends on the amount, pattern, and nature of the missing values.
+
+---
+
+## Interview Question
+
+### What is the difference between mean, median, and mode imputation?
+
+**Answer:** Mean imputation replaces missing numerical values with the average of the observed values. Median imputation replaces them with the middle value after sorting the data. Mode imputation replaces missing values with the most frequently occurring value. Median is generally preferred when numerical data is highly skewed or contains outliers because it is less affected by extreme values than the mean.

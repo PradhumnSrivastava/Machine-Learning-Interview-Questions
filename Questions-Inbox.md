@@ -1,7 +1,5 @@
 # Questions Inbox
 
-44. What is the difference between mean, median, and mode imputation? Ans- Mean imputation replaces missing numerical values with the average of the observed values. Median imputation replaces them with the middle value after sorting the data. Mode imputation replaces missing values with the most frequently occurring value. Median is generally preferred when numerical data is highly skewed or contains outliers because it is less affected by extreme values than the mean.
-
 45. What is feature scaling, and why is it required for some machine learning algorithms? Ans- Feature scaling transforms numerical features so that they have comparable scales. It is particularly important for distance-based and gradient-based algorithms such as KNN, K-Means, SVM, Logistic Regression, and neural networks. Without scaling, features with larger numerical ranges can disproportionately influence the model. Tree-based algorithms such as Decision Trees and Random Forests generally do not require feature scaling.
 
 46. What is the difference between normalization and standardization? Ans- Normalization commonly refers to Min-Max Scaling, which transforms values into a fixed range, usually 0 to 1, using the formula X_scaled = (X - X_min) / (X_max - X_min). Standardization transforms a feature so that it has approximately zero mean and unit variance using Z = (X - μ) / σ. Min-Max scaling is sensitive to outliers, while standardization is generally more suitable when centered features are desirable.
