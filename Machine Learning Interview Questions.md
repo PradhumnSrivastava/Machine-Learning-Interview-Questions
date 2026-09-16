@@ -477,3 +477,11 @@
 ### What is One-Hot Encoding, and what problem can occur when a categorical feature has many unique categories?
 
 **Answer:** One-Hot Encoding converts each category into a separate binary feature. For example, a City column containing Delhi, Mumbai, and Jaipur can become City_Delhi, City_Mumbai, and City_Jaipur. When a feature has many unique categories, One-Hot Encoding can create a very large number of features, increasing memory usage, computational cost, and potentially the risk of overfitting.
+
+---
+
+## Interview Question
+
+### What is Label Encoding, and why can it be problematic for nominal categorical features?
+
+**Answer:** Label Encoding assigns an integer to each category, such as Red = 0, Blue = 1, and Green = 2. For nominal variables, this can be problematic because the numerical values may create an artificial ordering that does not actually exist. A model could incorrectly interpret Green as being greater than Blue and Blue as greater than Red. Therefore, One-Hot Encoding or another suitable encoding method is often preferred for nominal features.
