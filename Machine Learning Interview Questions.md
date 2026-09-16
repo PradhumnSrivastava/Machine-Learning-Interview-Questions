@@ -453,3 +453,11 @@
 ### What is the difference between mean, median, and mode imputation?
 
 **Answer:** Mean imputation replaces missing numerical values with the average of the observed values. Median imputation replaces them with the middle value after sorting the data. Mode imputation replaces missing values with the most frequently occurring value. Median is generally preferred when numerical data is highly skewed or contains outliers because it is less affected by extreme values than the mean.
+
+---
+
+## Interview Question
+
+### What is feature scaling, and why is it required for some machine learning algorithms?
+
+**Answer:** Feature scaling transforms numerical features so that they have comparable scales. It is particularly important for distance-based and gradient-based algorithms such as KNN, K-Means, SVM, Logistic Regression, and neural networks. Without scaling, features with larger numerical ranges can disproportionately influence the model. Tree-based algorithms such as Decision Trees and Random Forests generally do not require feature scaling.
