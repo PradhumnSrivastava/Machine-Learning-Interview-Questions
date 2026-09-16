@@ -421,3 +421,11 @@
 ### What is the difference between confidence intervals and prediction intervals in Linear Regression?
 
 **Answer:** A confidence interval estimates the uncertainty around the expected mean response at a particular predictor value, while a prediction interval estimates the range in which an individual future observation is expected to fall. Prediction intervals are wider because they include both uncertainty in estimating the mean response and the natural variability of individual observations.
+
+---
+
+## Interview Question
+
+### What is data preprocessing, and why is it important in a machine learning pipeline?
+
+**Answer:** Data preprocessing is the process of cleaning, transforming, and preparing raw data before it is given to a machine learning model. It includes tasks such as handling missing values, encoding categorical variables, scaling numerical features, and removing inconsistent data. It is important because real-world data is often incomplete, noisy, or unsuitable for direct use by machine learning algorithms.
