@@ -493,3 +493,11 @@
 ### Suppose a categorical feature contains 100 different categories. How would you preprocess it?
 
 **Answer:** I would first examine the feature's cardinality, frequency distribution, relationship with the target, and the type of model being used. One-Hot Encoding would create 100 features, which may be acceptable for some datasets but inefficient for others. Alternatives include frequency encoding, target encoding, hashing, or grouping rare categories into an "Other" category. The choice should also consider dataset size, overfitting risk, computational cost, and interpretability.
+
+---
+
+## Interview Question
+
+### What is data leakage during preprocessing? Give a practical example and explain how you would prevent it.
+
+**Answer:** Data leakage occurs when information from validation or test data is unintentionally used during model training. For example, calculating the mean and standard deviation using the entire dataset before splitting it into training and test sets allows information from the test set to influence the preprocessing. To prevent this, the dataset should first be split, preprocessing parameters should be learned only from the training data, and those parameters should then be applied to validation and test data. Scikit-learn Pipeline and ColumnTransformer can help enforce this workflow.
