@@ -461,3 +461,11 @@
 ### What is feature scaling, and why is it required for some machine learning algorithms?
 
 **Answer:** Feature scaling transforms numerical features so that they have comparable scales. It is particularly important for distance-based and gradient-based algorithms such as KNN, K-Means, SVM, Logistic Regression, and neural networks. Without scaling, features with larger numerical ranges can disproportionately influence the model. Tree-based algorithms such as Decision Trees and Random Forests generally do not require feature scaling.
+
+---
+
+## Interview Question
+
+### What is the difference between normalization and standardization?
+
+**Answer:** Normalization commonly refers to Min-Max Scaling, which transforms values into a fixed range, usually 0 to 1, using the formula X_scaled = (X - X_min) / (X_max - X_min). Standardization transforms a feature so that it has approximately zero mean and unit variance using Z = (X - μ) / σ. Min-Max scaling is sensitive to outliers, while standardization is generally more suitable when centered features are desirable.
