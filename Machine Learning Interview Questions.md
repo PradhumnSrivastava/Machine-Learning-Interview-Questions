@@ -437,3 +437,11 @@
 ### What is the difference between numerical, categorical, ordinal, and nominal data?
 
 **Answer:** Numerical data represents quantities and can be discrete or continuous, such as age, salary, or height. Categorical data represents groups or labels, such as city or department. Ordinal data is categorical data with a meaningful order, such as Low, Medium, and High. Nominal data consists of categories without any meaningful order, such as Red, Blue, and Green.
+
+---
+
+## Interview Question
+
+### How do you handle missing values in a dataset?
+
+**Answer:** Missing values can be handled using techniques such as mean, median, or mode imputation, depending on the type of feature and data distribution. More advanced approaches include KNN imputation, regression-based imputation, and iterative imputation. If a feature contains an excessive amount of missing data and provides limited useful information, it may also be removed. The choice depends on the amount, pattern, and nature of the missing values.
