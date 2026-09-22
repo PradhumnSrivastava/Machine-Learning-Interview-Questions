@@ -549,3 +549,11 @@
 ### What is the Loss Function used in Logistic Regression?
 
 **Answer:** Logistic Regression commonly uses Binary Cross-Entropy Loss, also called Log Loss, for binary classification. It penalizes incorrect predictions, especially predictions made with high confidence, and provides a differentiable objective for optimization.
+
+---
+
+## Interview Question
+
+### How are the weights learned in Logistic Regression?
+
+**Answer:** The weights and bias are learned by minimizing the loss function using an optimization algorithm such as Gradient Descent. The gradients of the loss with respect to the model parameters are calculated, and the parameters are updated iteratively to reduce the loss.
