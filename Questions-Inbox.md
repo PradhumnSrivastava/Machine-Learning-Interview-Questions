@@ -1,7 +1,5 @@
 # Questions Inbox
 
-3. What is the mathematical equation of Logistic Regression? Ans- The linear part of Logistic Regression is z = w1x1 + w2x2 + ... + wnxn + b, or z = WᵀX + b. The value z is then passed through the Sigmoid function to obtain the predicted probability.
-
 4. What is the role of the Sigmoid function in Logistic Regression? Ans- The Sigmoid function converts the linear output z into a value between 0 and 1. This value represents the predicted probability of the positive class. Its formula is σ(z) = 1 / (1 + e^(-z)).
 
 5. How does Logistic Regression make a classification decision? Ans- Logistic Regression first calculates the predicted probability using the Sigmoid function. A threshold is then applied to convert the probability into a class label. With the commonly used threshold of 0.5, a probability greater than or equal to 0.5 is classified as class 1, while a probability below 0.5 is classified as class 0.
