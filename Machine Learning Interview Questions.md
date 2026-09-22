@@ -501,3 +501,11 @@
 ### What is data leakage during preprocessing? Give a practical example and explain how you would prevent it.
 
 **Answer:** Data leakage occurs when information from validation or test data is unintentionally used during model training. For example, calculating the mean and standard deviation using the entire dataset before splitting it into training and test sets allows information from the test set to influence the preprocessing. To prevent this, the dataset should first be split, preprocessing parameters should be learned only from the training data, and those parameters should then be applied to validation and test data. Scikit-learn Pipeline and ColumnTransformer can help enforce this workflow.
+
+---
+
+## Interview Question
+
+### What is Logistic Regression?
+
+**Answer:** Logistic Regression is a supervised machine learning algorithm mainly used for classification problems. It predicts the probability of a class by applying the Sigmoid function to a linear combination of input features.

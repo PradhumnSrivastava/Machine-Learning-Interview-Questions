@@ -1,5 +1,4 @@
 # Questions Inbox
-1. What is Logistic Regression? Ans- Logistic Regression is a supervised machine learning algorithm mainly used for classification problems. It predicts the probability of a class by applying the Sigmoid function to a linear combination of input features.
 
 2. Why is Logistic Regression called Regression if it is used for Classification? Ans- Logistic Regression is called regression because it models the relationship between input features and the log-odds of the target probability. Although its output is a probability, that probability is commonly converted into a class label for classification.
 
