@@ -1,7 +1,5 @@
 # Questions Inbox
 
-4. What is the role of the Sigmoid function in Logistic Regression? Ans- The Sigmoid function converts the linear output z into a value between 0 and 1. This value represents the predicted probability of the positive class. Its formula is σ(z) = 1 / (1 + e^(-z)).
-
 5. How does Logistic Regression make a classification decision? Ans- Logistic Regression first calculates the predicted probability using the Sigmoid function. A threshold is then applied to convert the probability into a class label. With the commonly used threshold of 0.5, a probability greater than or equal to 0.5 is classified as class 1, while a probability below 0.5 is classified as class 0.
 
 6. What is the Loss Function used in Logistic Regression? Ans- Logistic Regression commonly uses Binary Cross-Entropy Loss, also called Log Loss, for binary classification. It penalizes incorrect predictions, especially predictions made with high confidence, and provides a differentiable objective for optimization.
