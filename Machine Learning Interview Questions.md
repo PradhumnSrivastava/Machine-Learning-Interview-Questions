@@ -565,3 +565,11 @@
 ### What is the decision boundary in Logistic Regression?
 
 **Answer:** The decision boundary is the boundary where the predicted probability reaches the classification threshold, commonly 0.5. For a standard Logistic Regression model, this corresponds to WᵀX + b = 0, which forms a linear decision boundary.
+
+---
+
+## Interview Question
+
+### What are the assumptions and limitations of Logistic Regression?
+
+**Answer:** Logistic Regression assumes a linear relationship between the input features and the log-odds of the target. It can be affected by multicollinearity, extreme outliers, and highly non-linear relationships. Standard Logistic Regression also produces a linear decision boundary unless features are transformed or additional non-linear features are introduced.
