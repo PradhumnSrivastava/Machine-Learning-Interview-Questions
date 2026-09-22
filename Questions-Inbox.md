@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. Why is Logistic Regression called Regression if it is used for Classification? Ans- Logistic Regression is called regression because it models the relationship between input features and the log-odds of the target probability. Although its output is a probability, that probability is commonly converted into a class label for classification.
-
 3. What is the mathematical equation of Logistic Regression? Ans- The linear part of Logistic Regression is z = w1x1 + w2x2 + ... + wnxn + b, or z = WᵀX + b. The value z is then passed through the Sigmoid function to obtain the predicted probability.
 
 4. What is the role of the Sigmoid function in Logistic Regression? Ans- The Sigmoid function converts the linear output z into a value between 0 and 1. This value represents the predicted probability of the positive class. Its formula is σ(z) = 1 / (1 + e^(-z)).
