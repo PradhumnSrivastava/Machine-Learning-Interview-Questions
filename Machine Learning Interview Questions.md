@@ -541,3 +541,11 @@
 ### How does Logistic Regression make a classification decision?
 
 **Answer:** Logistic Regression first calculates the predicted probability using the Sigmoid function. A threshold is then applied to convert the probability into a class label. With the commonly used threshold of 0.5, a probability greater than or equal to 0.5 is classified as class 1, while a probability below 0.5 is classified as class 0.
+
+---
+
+## Interview Question
+
+### What is the Loss Function used in Logistic Regression?
+
+**Answer:** Logistic Regression commonly uses Binary Cross-Entropy Loss, also called Log Loss, for binary classification. It penalizes incorrect predictions, especially predictions made with high confidence, and provides a differentiable objective for optimization.
