@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. How does the KNN algorithm work? Ans- KNN calculates the distance between a new data point and the training data points. It selects the K nearest data points and uses their labels or values to make a prediction. For classification, it usually uses majority voting, while for regression, it commonly uses the average of the neighbors' values.
-
 3. What does K represent in KNN? Ans- K represents the number of nearest neighbors considered when making a prediction. For example, if K = 5, the algorithm considers the five closest training data points to determine the prediction.
 
 4. What distance metrics are commonly used in KNN? Ans- Common distance metrics include Euclidean distance, Manhattan distance, and Minkowski distance. Euclidean distance is commonly used for continuous numerical features, while the appropriate metric depends on the nature and scale of the data.
