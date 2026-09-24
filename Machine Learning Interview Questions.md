@@ -637,3 +637,11 @@
 ### Is KNN a parametric or non-parametric algorithm?
 
 **Answer:** KNN is a non-parametric algorithm because it does not assume a specific probability distribution or fixed functional form for the underlying data. Instead, it makes predictions based directly on the training examples.
+
+---
+
+## Interview Question
+
+### What is the difference between KNN Classification and KNN Regression?
+
+**Answer:** KNN Classification predicts a categorical class by using the labels of the nearest neighbors, usually through majority voting. KNN Regression predicts a continuous value, commonly by taking the average of the target values of the nearest neighbors.
