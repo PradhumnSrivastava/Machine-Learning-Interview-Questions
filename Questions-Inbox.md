@@ -1,7 +1,5 @@
 # Questions Inbox
 
-6. Why is feature scaling important in KNN? Ans- Feature scaling is important because KNN relies on distance calculations. If one feature has a much larger numerical scale than another, it can dominate the distance calculation. Standardization or normalization can help ensure that features contribute more appropriately to the distance.
-
 7. Is KNN a parametric or non-parametric algorithm? Ans- KNN is a non-parametric algorithm because it does not assume a specific probability distribution or fixed functional form for the underlying data. Instead, it makes predictions based directly on the training examples.
 
 8. What is the difference between KNN Classification and KNN Regression? Ans- KNN Classification predicts a categorical class by using the labels of the nearest neighbors, usually through majority voting. KNN Regression predicts a continuous value, commonly by taking the average of the target values of the nearest neighbors.

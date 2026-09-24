@@ -621,3 +621,11 @@
 ### How do you choose the value of K in KNN?
 
 **Answer:** The value of K is usually selected using validation techniques such as cross-validation. A small K can make the model sensitive to noise and lead to overfitting, while a very large K can make the model too smooth and lead to underfitting.
+
+---
+
+## Interview Question
+
+### Why is feature scaling important in KNN?
+
+**Answer:** Feature scaling is important because KNN relies on distance calculations. If one feature has a much larger numerical scale than another, it can dominate the distance calculation. Standardization or normalization can help ensure that features contribute more appropriately to the distance.
