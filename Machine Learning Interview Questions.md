@@ -605,3 +605,11 @@
 ### What does K represent in KNN?
 
 **Answer:** K represents the number of nearest neighbors considered when making a prediction. For example, if K = 5, the algorithm considers the five closest training data points to determine the prediction.
+
+---
+
+## Interview Question
+
+### What distance metrics are commonly used in KNN?
+
+**Answer:** Common distance metrics include Euclidean distance, Manhattan distance, and Minkowski distance. Euclidean distance is commonly used for continuous numerical features, while the appropriate metric depends on the nature and scale of the data.

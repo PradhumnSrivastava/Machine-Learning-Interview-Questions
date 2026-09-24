@@ -1,7 +1,5 @@
 # Questions Inbox
 
-4. What distance metrics are commonly used in KNN? Ans- Common distance metrics include Euclidean distance, Manhattan distance, and Minkowski distance. Euclidean distance is commonly used for continuous numerical features, while the appropriate metric depends on the nature and scale of the data.
-
 5. How do you choose the value of K in KNN? Ans- The value of K is usually selected using validation techniques such as cross-validation. A small K can make the model sensitive to noise and lead to overfitting, while a very large K can make the model too smooth and lead to underfitting.
 
 6. Why is feature scaling important in KNN? Ans- Feature scaling is important because KNN relies on distance calculations. If one feature has a much larger numerical scale than another, it can dominate the distance calculation. Standardization or normalization can help ensure that features contribute more appropriately to the distance.
