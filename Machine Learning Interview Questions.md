@@ -645,3 +645,11 @@
 ### What is the difference between KNN Classification and KNN Regression?
 
 **Answer:** KNN Classification predicts a categorical class by using the labels of the nearest neighbors, usually through majority voting. KNN Regression predicts a continuous value, commonly by taking the average of the target values of the nearest neighbors.
+
+---
+
+## Interview Question
+
+### What are the advantages and disadvantages of KNN?
+
+**Answer:** KNN is simple to understand, requires little training computation, and can model complex decision boundaries. However, prediction can be computationally expensive for large datasets, it requires appropriate feature scaling, and its performance can decrease when there are many irrelevant or high-dimensional features.
