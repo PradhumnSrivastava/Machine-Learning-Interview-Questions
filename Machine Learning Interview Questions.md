@@ -597,3 +597,11 @@
 ### How does the KNN algorithm work?
 
 **Answer:** KNN calculates the distance between a new data point and the training data points. It selects the K nearest data points and uses their labels or values to make a prediction. For classification, it usually uses majority voting, while for regression, it commonly uses the average of the neighbors' values.
+
+---
+
+## Interview Question
+
+### What does K represent in KNN?
+
+**Answer:** K represents the number of nearest neighbors considered when making a prediction. For example, if K = 5, the algorithm considers the five closest training data points to determine the prediction.
