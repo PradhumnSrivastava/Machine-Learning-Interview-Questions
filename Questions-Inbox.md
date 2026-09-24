@@ -1,7 +1,5 @@
 # Questions Inbox
 
-5. How do you choose the value of K in KNN? Ans- The value of K is usually selected using validation techniques such as cross-validation. A small K can make the model sensitive to noise and lead to overfitting, while a very large K can make the model too smooth and lead to underfitting.
-
 6. Why is feature scaling important in KNN? Ans- Feature scaling is important because KNN relies on distance calculations. If one feature has a much larger numerical scale than another, it can dominate the distance calculation. Standardization or normalization can help ensure that features contribute more appropriately to the distance.
 
 7. Is KNN a parametric or non-parametric algorithm? Ans- KNN is a non-parametric algorithm because it does not assume a specific probability distribution or fixed functional form for the underlying data. Instead, it makes predictions based directly on the training examples.
