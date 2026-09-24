@@ -581,3 +581,11 @@
 ### What is the difference between Logistic Regression and Linear Regression?
 
 **Answer:** Linear Regression predicts continuous numerical values, while Logistic Regression predicts the probability of a class. Linear Regression commonly uses Mean Squared Error for optimization, whereas Logistic Regression commonly uses Binary Cross-Entropy or Log Loss. Logistic Regression uses the Sigmoid function for binary classification.
+
+---
+
+## Interview Question
+
+### What is K-Nearest Neighbors (KNN)?
+
+**Answer:** K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression. It makes predictions based on the closest training data points to a new data point.

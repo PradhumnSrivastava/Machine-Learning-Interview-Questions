@@ -1,5 +1,4 @@
 # Questions Inbox
-1. What is K-Nearest Neighbors (KNN)? Ans- K-Nearest Neighbors (KNN) is a supervised machine learning algorithm used for classification and regression. It makes predictions based on the closest training data points to a new data point.
 
 2. How does the KNN algorithm work? Ans- KNN calculates the distance between a new data point and the training data points. It selects the K nearest data points and uses their labels or values to make a prediction. For classification, it usually uses majority voting, while for regression, it commonly uses the average of the neighbors' values.
 
