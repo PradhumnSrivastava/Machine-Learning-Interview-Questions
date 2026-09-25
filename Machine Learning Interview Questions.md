@@ -725,3 +725,11 @@
 ### How does KNN handle missing values?
 
 **Answer:** Standard KNN distance calculations generally cannot directly handle missing feature values. Missing values should usually be handled through appropriate preprocessing, such as imputation, before applying KNN. The imputation method should be chosen carefully to avoid introducing bias or data leakage.
+
+---
+
+## Interview Question
+
+### Why is KNN sensitive to the choice of distance metric?
+
+**Answer:** KNN determines its neighbors using a distance metric, so changing the metric can change which observations are considered nearest. Euclidean, Manhattan, Minkowski, and other metrics can produce different neighborhoods, especially when features have different distributions or structures.
