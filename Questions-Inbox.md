@@ -1,1 +1,20 @@
 # Questions Inbox
+11. Why does KNN suffer from the Curse of Dimensionality? Ans- As the number of features increases, the volume of the feature space grows rapidly, making data points relatively farther apart and distances less informative. As a result, identifying meaningful nearest neighbors becomes difficult. Feature selection or dimensionality reduction can help reduce this problem.
+
+12. How does K affect the Bias-Variance Tradeoff in KNN? Ans- A small value of K makes KNN highly sensitive to individual training points, resulting in low bias but high variance and possible overfitting. A large value of K produces smoother predictions, increasing bias but reducing variance and potentially causing underfitting.
+
+13. Why can KNN be computationally expensive during prediction? Ans- KNN is a lazy learning algorithm, so it performs very little computation during training. During prediction, it may need to calculate the distance between the new data point and many or all training samples, making prediction expensive for large datasets.
+
+14. How can KNN prediction be optimized for large datasets? Ans- KNN prediction can be optimized using efficient data structures and approximate nearest-neighbor methods such as KD-Trees, Ball Trees, or specialized vector search libraries. These methods can reduce the number of distance calculations required during prediction, although their effectiveness depends on the dataset and dimensionality.
+
+15. What is Distance-Weighted KNN? Ans- Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
+
+16. What happens when KNN has tied votes between classes? Ans- A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.
+
+17. How do irrelevant features affect KNN? Ans- Irrelevant features can distort distance calculations because KNN relies directly on feature distances. They may make unrelated data points appear closer or meaningful points appear farther apart. Feature selection or dimensionality reduction can therefore improve KNN performance.
+
+18. How does KNN handle missing values? Ans- Standard KNN distance calculations generally cannot directly handle missing feature values. Missing values should usually be handled through appropriate preprocessing, such as imputation, before applying KNN. The imputation method should be chosen carefully to avoid introducing bias or data leakage.
+
+19. Why is KNN sensitive to the choice of distance metric? Ans- KNN determines its neighbors using a distance metric, so changing the metric can change which observations are considered nearest. Euclidean, Manhattan, Minkowski, and other metrics can produce different neighborhoods, especially when features have different distributions or structures.
+
+20. Can KNN produce probability estimates, and how? Ans- Yes. In classification, KNN can estimate class probabilities by calculating the proportion of neighbors belonging to each class. For example, if 7 out of 10 nearest neighbors belong to class 1, the basic KNN probability estimate for class 1 is 0.7. Distance-weighted KNN can produce weighted probability estimates.
