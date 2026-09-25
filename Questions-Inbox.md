@@ -1,5 +1,4 @@
 # Questions Inbox
-11. Why does KNN suffer from the Curse of Dimensionality? Ans- As the number of features increases, the volume of the feature space grows rapidly, making data points relatively farther apart and distances less informative. As a result, identifying meaningful nearest neighbors becomes difficult. Feature selection or dimensionality reduction can help reduce this problem.
 
 12. How does K affect the Bias-Variance Tradeoff in KNN? Ans- A small value of K makes KNN highly sensitive to individual training points, resulting in low bias but high variance and possible overfitting. A large value of K produces smoother predictions, increasing bias but reducing variance and potentially causing underfitting.
 

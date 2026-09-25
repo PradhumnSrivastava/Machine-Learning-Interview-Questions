@@ -661,3 +661,11 @@
 ### What is the Curse of Dimensionality in KNN?
 
 **Answer:** The Curse of Dimensionality refers to the problems that occur when the number of features becomes very large. In high-dimensional spaces, data points tend to become relatively similar in terms of distance, making it difficult for KNN to identify meaningful nearest neighbors. Feature selection or dimensionality reduction can help address this problem.
+
+---
+
+## Interview Question
+
+### Why does KNN suffer from the Curse of Dimensionality?
+
+**Answer:** As the number of features increases, the volume of the feature space grows rapidly, making data points relatively farther apart and distances less informative. As a result, identifying meaningful nearest neighbors becomes difficult. Feature selection or dimensionality reduction can help reduce this problem.
