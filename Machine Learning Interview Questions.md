@@ -701,3 +701,11 @@
 ### What is Distance-Weighted KNN?
 
 **Answer:** Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
+
+---
+
+## Interview Question
+
+### What happens when KNN has tied votes between classes?
+
+**Answer:** A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.

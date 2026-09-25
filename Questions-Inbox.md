@@ -1,7 +1,5 @@
 # Questions Inbox
 
-16. What happens when KNN has tied votes between classes? Ans- A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.
-
 17. How do irrelevant features affect KNN? Ans- Irrelevant features can distort distance calculations because KNN relies directly on feature distances. They may make unrelated data points appear closer or meaningful points appear farther apart. Feature selection or dimensionality reduction can therefore improve KNN performance.
 
 18. How does KNN handle missing values? Ans- Standard KNN distance calculations generally cannot directly handle missing feature values. Missing values should usually be handled through appropriate preprocessing, such as imputation, before applying KNN. The imputation method should be chosen carefully to avoid introducing bias or data leakage.
