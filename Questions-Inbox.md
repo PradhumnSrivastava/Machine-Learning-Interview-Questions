@@ -1,7 +1,5 @@
 # Questions Inbox
 
-14. How can KNN prediction be optimized for large datasets? Ans- KNN prediction can be optimized using efficient data structures and approximate nearest-neighbor methods such as KD-Trees, Ball Trees, or specialized vector search libraries. These methods can reduce the number of distance calculations required during prediction, although their effectiveness depends on the dataset and dimensionality.
-
 15. What is Distance-Weighted KNN? Ans- Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
 
 16. What happens when KNN has tied votes between classes? Ans- A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.
