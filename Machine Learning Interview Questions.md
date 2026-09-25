@@ -717,3 +717,11 @@
 ### How do irrelevant features affect KNN?
 
 **Answer:** Irrelevant features can distort distance calculations because KNN relies directly on feature distances. They may make unrelated data points appear closer or meaningful points appear farther apart. Feature selection or dimensionality reduction can therefore improve KNN performance.
+
+---
+
+## Interview Question
+
+### How does KNN handle missing values?
+
+**Answer:** Standard KNN distance calculations generally cannot directly handle missing feature values. Missing values should usually be handled through appropriate preprocessing, such as imputation, before applying KNN. The imputation method should be chosen carefully to avoid introducing bias or data leakage.
