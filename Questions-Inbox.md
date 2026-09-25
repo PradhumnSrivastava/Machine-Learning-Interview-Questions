@@ -1,7 +1,5 @@
 # Questions Inbox
 
-12. How does K affect the Bias-Variance Tradeoff in KNN? Ans- A small value of K makes KNN highly sensitive to individual training points, resulting in low bias but high variance and possible overfitting. A large value of K produces smoother predictions, increasing bias but reducing variance and potentially causing underfitting.
-
 13. Why can KNN be computationally expensive during prediction? Ans- KNN is a lazy learning algorithm, so it performs very little computation during training. During prediction, it may need to calculate the distance between the new data point and many or all training samples, making prediction expensive for large datasets.
 
 14. How can KNN prediction be optimized for large datasets? Ans- KNN prediction can be optimized using efficient data structures and approximate nearest-neighbor methods such as KD-Trees, Ball Trees, or specialized vector search libraries. These methods can reduce the number of distance calculations required during prediction, although their effectiveness depends on the dataset and dimensionality.
