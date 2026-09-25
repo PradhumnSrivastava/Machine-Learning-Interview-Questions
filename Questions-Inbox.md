@@ -1,7 +1,5 @@
 # Questions Inbox
 
-13. Why can KNN be computationally expensive during prediction? Ans- KNN is a lazy learning algorithm, so it performs very little computation during training. During prediction, it may need to calculate the distance between the new data point and many or all training samples, making prediction expensive for large datasets.
-
 14. How can KNN prediction be optimized for large datasets? Ans- KNN prediction can be optimized using efficient data structures and approximate nearest-neighbor methods such as KD-Trees, Ball Trees, or specialized vector search libraries. These methods can reduce the number of distance calculations required during prediction, although their effectiveness depends on the dataset and dimensionality.
 
 15. What is Distance-Weighted KNN? Ans- Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
