@@ -1,7 +1,5 @@
 # Questions Inbox
 
-15. What is Distance-Weighted KNN? Ans- Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
-
 16. What happens when KNN has tied votes between classes? Ans- A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.
 
 17. How do irrelevant features affect KNN? Ans- Irrelevant features can distort distance calculations because KNN relies directly on feature distances. They may make unrelated data points appear closer or meaningful points appear farther apart. Feature selection or dimensionality reduction can therefore improve KNN performance.

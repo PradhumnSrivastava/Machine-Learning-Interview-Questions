@@ -693,3 +693,11 @@
 ### How can KNN prediction be optimized for large datasets?
 
 **Answer:** KNN prediction can be optimized using efficient data structures and approximate nearest-neighbor methods such as KD-Trees, Ball Trees, or specialized vector search libraries. These methods can reduce the number of distance calculations required during prediction, although their effectiveness depends on the dataset and dimensionality.
+
+---
+
+## Interview Question
+
+### What is Distance-Weighted KNN?
+
+**Answer:** Distance-Weighted KNN gives greater importance to closer neighbors and less importance to farther neighbors. Instead of giving every neighbor equal voting weight, the contribution of a neighbor is typically based on a function of its distance from the query point.
