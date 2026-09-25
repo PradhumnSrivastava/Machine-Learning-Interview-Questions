@@ -709,3 +709,11 @@
 ### What happens when KNN has tied votes between classes?
 
 **Answer:** A tie can occur when multiple classes receive the same number of votes among the selected neighbors. The tie can be handled using an odd value of K for binary classification, distance-weighted voting, or a predefined tie-breaking rule depending on the implementation.
+
+---
+
+## Interview Question
+
+### How do irrelevant features affect KNN?
+
+**Answer:** Irrelevant features can distort distance calculations because KNN relies directly on feature distances. They may make unrelated data points appear closer or meaningful points appear farther apart. Feature selection or dimensionality reduction can therefore improve KNN performance.
