@@ -853,3 +853,11 @@
 ### How do outliers affect K-Means?
 
 **Answer:** Outliers can significantly shift cluster centroids because centroids are calculated using the mean. This can distort cluster boundaries and reduce clustering quality. Appropriate outlier handling or a more robust clustering method may be considered when outliers are substantial.
+
+---
+
+## Interview Question
+
+### Why does K-Means struggle with non-spherical clusters?
+
+**Answer:** K-Means assigns points based on distance to centroids and minimizes squared Euclidean distances. This tends to favor compact, roughly spherical or convex clusters of comparable scale, making irregularly shaped clusters difficult to represent accurately.

@@ -1,7 +1,5 @@
 # Questions Inbox
 
-15. Why does K-Means struggle with non-spherical clusters? Ans- K-Means assigns points based on distance to centroids and minimizes squared Euclidean distances. This tends to favor compact, roughly spherical or convex clusters of comparable scale, making irregularly shaped clusters difficult to represent accurately.
-
 16. What is the difference between K-Means and K-Medoids? Ans- K-Means represents each cluster using the mean of its points, while K-Medoids represents each cluster using an actual data point called a medoid. K-Medoids is generally more robust to outliers because the representative point is an existing observation rather than a mean.
 
 17. Is K-Means guaranteed to find the global optimum? Ans- No. The standard K-Means algorithm is guaranteed to converge to a local optimum of its objective function, but it is not generally guaranteed to find the global optimum. Multiple initializations can improve the chance of obtaining a better solution.
