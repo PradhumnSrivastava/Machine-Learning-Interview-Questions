@@ -741,3 +741,11 @@
 ### Can KNN produce probability estimates, and how?
 
 **Answer:** Yes. In classification, KNN can estimate class probabilities by calculating the proportion of neighbors belonging to each class. For example, if 7 out of 10 nearest neighbors belong to class 1, the basic KNN probability estimate for class 1 is 0.7. Distance-weighted KNN can produce weighted probability estimates.
+
+---
+
+## Interview Question
+
+### What is K-Means Clustering?
+
+**Answer:** K-Means is an unsupervised machine learning algorithm used to partition data into K clusters. It assigns each data point to the nearest cluster centroid and iteratively updates the centroids until the cluster assignments stabilize.
