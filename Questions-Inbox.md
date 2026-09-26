@@ -1,7 +1,5 @@
 # Questions Inbox
 
-5. What objective function does K-Means minimize? Ans- K-Means minimizes the Within-Cluster Sum of Squares (WCSS), also called inertia. It is the sum of the squared distances between each data point and the centroid of its assigned cluster.
-
 6. Why is feature scaling important in K-Means? Ans- K-Means relies on distance calculations, so features with larger numerical scales can dominate the distance. Scaling features ensures that variables with different units or ranges contribute more appropriately to cluster formation.
 
 7. How do you choose the optimal value of K in K-Means? Ans- Common methods include the Elbow Method and Silhouette Analysis. The Elbow Method examines how WCSS decreases as K increases, while the Silhouette Score measures how well-separated and internally cohesive the resulting clusters are.

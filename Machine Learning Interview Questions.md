@@ -773,3 +773,11 @@
 ### What is a centroid in K-Means?
 
 **Answer:** A centroid is the mean position of all data points assigned to a particular cluster. It acts as the representative center of that cluster and is updated during each iteration of the algorithm.
+
+---
+
+## Interview Question
+
+### What objective function does K-Means minimize?
+
+**Answer:** K-Means minimizes the Within-Cluster Sum of Squares (WCSS), also called inertia. It is the sum of the squared distances between each data point and the centroid of its assigned cluster.
