@@ -813,3 +813,11 @@
 ### What is the Silhouette Score?
 
 **Answer:** The Silhouette Score measures how similar a data point is to its own cluster compared with the nearest other cluster. It ranges from -1 to 1, where a higher value generally indicates better-defined clustering.
+
+---
+
+## Interview Question
+
+### Why is K-Means sensitive to initialization?
+
+**Answer:** K-Means can converge to different local optima depending on the initial centroid positions. Poor initialization can produce inferior clusters, which is why methods such as K-Means++ are commonly used to select better initial centroids.
