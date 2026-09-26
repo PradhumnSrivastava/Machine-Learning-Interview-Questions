@@ -789,3 +789,11 @@
 ### Why is feature scaling important in K-Means?
 
 **Answer:** K-Means relies on distance calculations, so features with larger numerical scales can dominate the distance. Scaling features ensures that variables with different units or ranges contribute more appropriately to cluster formation.
+
+---
+
+## Interview Question
+
+### How do you choose the optimal value of K in K-Means?
+
+**Answer:** Common methods include the Elbow Method and Silhouette Analysis. The Elbow Method examines how WCSS decreases as K increases, while the Silhouette Score measures how well-separated and internally cohesive the resulting clusters are.
