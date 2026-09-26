@@ -1,7 +1,5 @@
 # Questions Inbox
 
-12. Why can K-Means produce different results on different runs? Ans- Different initial centroid positions can lead K-Means toward different local minima of its objective function. Using a fixed random_state makes the initialization reproducible, while multiple initializations can be used to search for a better solution.
-
 13. What are the limitations of K-Means? Ans- K-Means requires the number of clusters to be specified, is sensitive to feature scaling and outliers, and generally works best when clusters are reasonably compact and separated. It may perform poorly for clusters with irregular shapes or very different densities.
 
 14. How do outliers affect K-Means? Ans- Outliers can significantly shift cluster centroids because centroids are calculated using the mean. This can distort cluster boundaries and reduce clustering quality. Appropriate outlier handling or a more robust clustering method may be considered when outliers are substantial.
