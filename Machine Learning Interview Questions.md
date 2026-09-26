@@ -861,3 +861,11 @@
 ### Why does K-Means struggle with non-spherical clusters?
 
 **Answer:** K-Means assigns points based on distance to centroids and minimizes squared Euclidean distances. This tends to favor compact, roughly spherical or convex clusters of comparable scale, making irregularly shaped clusters difficult to represent accurately.
+
+---
+
+## Interview Question
+
+### What is the difference between K-Means and K-Medoids?
+
+**Answer:** K-Means represents each cluster using the mean of its points, while K-Medoids represents each cluster using an actual data point called a medoid. K-Medoids is generally more robust to outliers because the representative point is an existing observation rather than a mean.
