@@ -885,3 +885,11 @@
 ### How can you determine whether K-Means clustering is meaningful?
 
 **Answer:** Clustering quality can be evaluated using metrics such as Silhouette Score, Calinski-Harabasz Index, and Davies-Bouldin Index, along with visualization and domain-specific interpretation. A mathematically good clustering is not necessarily meaningful for the real-world problem.
+
+---
+
+## Interview Question
+
+### What is the computational complexity of K-Means?
+
+**Answer:** For n data points, k clusters, d features, and i iterations, the typical time complexity is approximately O(nkdi). The actual runtime depends on the number of iterations, initialization strategy, implementation, and dataset characteristics.
