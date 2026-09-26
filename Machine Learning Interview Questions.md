@@ -749,3 +749,11 @@
 ### What is K-Means Clustering?
 
 **Answer:** K-Means is an unsupervised machine learning algorithm used to partition data into K clusters. It assigns each data point to the nearest cluster centroid and iteratively updates the centroids until the cluster assignments stabilize.
+
+---
+
+## Interview Question
+
+### What does K represent in K-Means?
+
+**Answer:** K represents the number of clusters that the algorithm is expected to create. It must be specified before training the standard K-Means algorithm.
