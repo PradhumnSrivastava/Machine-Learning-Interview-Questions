@@ -757,3 +757,11 @@
 ### What does K represent in K-Means?
 
 **Answer:** K represents the number of clusters that the algorithm is expected to create. It must be specified before training the standard K-Means algorithm.
+
+---
+
+## Interview Question
+
+### How does the K-Means algorithm work?
+
+**Answer:** K-Means starts by initializing K centroids, assigns each data point to the nearest centroid, recalculates each centroid as the mean of the points assigned to it, and repeats the assignment and update steps until convergence or a stopping condition is reached.
