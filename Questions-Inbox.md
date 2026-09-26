@@ -1,7 +1,5 @@
 # Questions Inbox
 
-11. What is K-Means++? Ans- K-Means++ is a centroid initialization method designed to select initial centroids that are well separated from one another. It generally provides better starting points than purely random initialization and can improve convergence and clustering results.
-
 12. Why can K-Means produce different results on different runs? Ans- Different initial centroid positions can lead K-Means toward different local minima of its objective function. Using a fixed random_state makes the initialization reproducible, while multiple initializations can be used to search for a better solution.
 
 13. What are the limitations of K-Means? Ans- K-Means requires the number of clusters to be specified, is sensitive to feature scaling and outliers, and generally works best when clusters are reasonably compact and separated. It may perform poorly for clusters with irregular shapes or very different densities.

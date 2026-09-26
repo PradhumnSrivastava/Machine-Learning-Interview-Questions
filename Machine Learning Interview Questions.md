@@ -821,3 +821,11 @@
 ### Why is K-Means sensitive to initialization?
 
 **Answer:** K-Means can converge to different local optima depending on the initial centroid positions. Poor initialization can produce inferior clusters, which is why methods such as K-Means++ are commonly used to select better initial centroids.
+
+---
+
+## Interview Question
+
+### What is K-Means++?
+
+**Answer:** K-Means++ is a centroid initialization method designed to select initial centroids that are well separated from one another. It generally provides better starting points than purely random initialization and can improve convergence and clustering results.
