@@ -765,3 +765,11 @@
 ### How does the K-Means algorithm work?
 
 **Answer:** K-Means starts by initializing K centroids, assigns each data point to the nearest centroid, recalculates each centroid as the mean of the points assigned to it, and repeats the assignment and update steps until convergence or a stopping condition is reached.
+
+---
+
+## Interview Question
+
+### What is a centroid in K-Means?
+
+**Answer:** A centroid is the mean position of all data points assigned to a particular cluster. It acts as the representative center of that cluster and is updated during each iteration of the algorithm.

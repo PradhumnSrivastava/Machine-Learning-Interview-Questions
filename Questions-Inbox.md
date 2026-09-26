@@ -1,7 +1,5 @@
 # Questions Inbox
 
-4. What is a centroid in K-Means? Ans- A centroid is the mean position of all data points assigned to a particular cluster. It acts as the representative center of that cluster and is updated during each iteration of the algorithm.
-
 5. What objective function does K-Means minimize? Ans- K-Means minimizes the Within-Cluster Sum of Squares (WCSS), also called inertia. It is the sum of the squared distances between each data point and the centroid of its assigned cluster.
 
 6. Why is feature scaling important in K-Means? Ans- K-Means relies on distance calculations, so features with larger numerical scales can dominate the distance. Scaling features ensures that variables with different units or ranges contribute more appropriately to cluster formation.
