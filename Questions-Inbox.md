@@ -1,7 +1,5 @@
 # Questions Inbox
 
-13. What are the limitations of K-Means? Ans- K-Means requires the number of clusters to be specified, is sensitive to feature scaling and outliers, and generally works best when clusters are reasonably compact and separated. It may perform poorly for clusters with irregular shapes or very different densities.
-
 14. How do outliers affect K-Means? Ans- Outliers can significantly shift cluster centroids because centroids are calculated using the mean. This can distort cluster boundaries and reduce clustering quality. Appropriate outlier handling or a more robust clustering method may be considered when outliers are substantial.
 
 15. Why does K-Means struggle with non-spherical clusters? Ans- K-Means assigns points based on distance to centroids and minimizes squared Euclidean distances. This tends to favor compact, roughly spherical or convex clusters of comparable scale, making irregularly shaped clusters difficult to represent accurately.

@@ -837,3 +837,11 @@
 ### Why can K-Means produce different results on different runs?
 
 **Answer:** Different initial centroid positions can lead K-Means toward different local minima of its objective function. Using a fixed random_state makes the initialization reproducible, while multiple initializations can be used to search for a better solution.
+
+---
+
+## Interview Question
+
+### What are the limitations of K-Means?
+
+**Answer:** K-Means requires the number of clusters to be specified, is sensitive to feature scaling and outliers, and generally works best when clusters are reasonably compact and separated. It may perform poorly for clusters with irregular shapes or very different densities.
