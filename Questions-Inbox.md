@@ -1,7 +1,5 @@
 # Questions Inbox
 
-8. What is the Elbow Method in K-Means? Ans- The Elbow Method involves running K-Means with different values of K and plotting the corresponding WCSS. The point where the reduction in WCSS begins to slow significantly is considered a possible choice for K.
-
 9. What is the Silhouette Score? Ans- The Silhouette Score measures how similar a data point is to its own cluster compared with the nearest other cluster. It ranges from -1 to 1, where a higher value generally indicates better-defined clustering.
 
 10. Why is K-Means sensitive to initialization? Ans- K-Means can converge to different local optima depending on the initial centroid positions. Poor initialization can produce inferior clusters, which is why methods such as K-Means++ are commonly used to select better initial centroids.

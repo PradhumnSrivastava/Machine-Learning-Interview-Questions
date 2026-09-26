@@ -797,3 +797,11 @@
 ### How do you choose the optimal value of K in K-Means?
 
 **Answer:** Common methods include the Elbow Method and Silhouette Analysis. The Elbow Method examines how WCSS decreases as K increases, while the Silhouette Score measures how well-separated and internally cohesive the resulting clusters are.
+
+---
+
+## Interview Question
+
+### What is the Elbow Method in K-Means?
+
+**Answer:** The Elbow Method involves running K-Means with different values of K and plotting the corresponding WCSS. The point where the reduction in WCSS begins to slow significantly is considered a possible choice for K.
