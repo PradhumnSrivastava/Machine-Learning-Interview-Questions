@@ -869,3 +869,11 @@
 ### What is the difference between K-Means and K-Medoids?
 
 **Answer:** K-Means represents each cluster using the mean of its points, while K-Medoids represents each cluster using an actual data point called a medoid. K-Medoids is generally more robust to outliers because the representative point is an existing observation rather than a mean.
+
+---
+
+## Interview Question
+
+### Is K-Means guaranteed to find the global optimum?
+
+**Answer:** No. The standard K-Means algorithm is guaranteed to converge to a local optimum of its objective function, but it is not generally guaranteed to find the global optimum. Multiple initializations can improve the chance of obtaining a better solution.
