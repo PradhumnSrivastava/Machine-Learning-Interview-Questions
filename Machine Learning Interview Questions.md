@@ -845,3 +845,11 @@
 ### What are the limitations of K-Means?
 
 **Answer:** K-Means requires the number of clusters to be specified, is sensitive to feature scaling and outliers, and generally works best when clusters are reasonably compact and separated. It may perform poorly for clusters with irregular shapes or very different densities.
+
+---
+
+## Interview Question
+
+### How do outliers affect K-Means?
+
+**Answer:** Outliers can significantly shift cluster centroids because centroids are calculated using the mean. This can distort cluster boundaries and reduce clustering quality. Appropriate outlier handling or a more robust clustering method may be considered when outliers are substantial.
