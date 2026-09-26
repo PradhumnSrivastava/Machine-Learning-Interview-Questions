@@ -805,3 +805,11 @@
 ### What is the Elbow Method in K-Means?
 
 **Answer:** The Elbow Method involves running K-Means with different values of K and plotting the corresponding WCSS. The point where the reduction in WCSS begins to slow significantly is considered a possible choice for K.
+
+---
+
+## Interview Question
+
+### What is the Silhouette Score?
+
+**Answer:** The Silhouette Score measures how similar a data point is to its own cluster compared with the nearest other cluster. It ranges from -1 to 1, where a higher value generally indicates better-defined clustering.
