@@ -877,3 +877,11 @@
 ### Is K-Means guaranteed to find the global optimum?
 
 **Answer:** No. The standard K-Means algorithm is guaranteed to converge to a local optimum of its objective function, but it is not generally guaranteed to find the global optimum. Multiple initializations can improve the chance of obtaining a better solution.
+
+---
+
+## Interview Question
+
+### How can you determine whether K-Means clustering is meaningful?
+
+**Answer:** Clustering quality can be evaluated using metrics such as Silhouette Score, Calinski-Harabasz Index, and Davies-Bouldin Index, along with visualization and domain-specific interpretation. A mathematically good clustering is not necessarily meaningful for the real-world problem.
