@@ -1061,3 +1061,11 @@
 ### What is the difference between an ML Pipeline and an ML Production Lifecycle?
 
 **Answer:** An ML Pipeline represents an automated sequence of connected ML tasks, such as data processing, training, and evaluation. The ML Production Lifecycle is broader and includes data collection, pipeline execution, deployment, monitoring, model versioning, feedback, retraining, and continuous improvement of the production system.
+
+---
+
+## Interview Question
+
+### What is Overfitting in Machine Learning?
+
+**Answer:** Overfitting occurs when a model learns the training data too closely, including noise and random patterns, resulting in very good training performance but poor performance on unseen data.
