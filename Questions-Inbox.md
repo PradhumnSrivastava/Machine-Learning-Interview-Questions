@@ -1,7 +1,5 @@
 # Questions Inbox
 
-7. What is Data Preprocessing in an ML Pipeline? Ans- Data preprocessing transforms raw data into a format suitable for machine learning. Common operations include handling missing values, encoding categorical variables, scaling numerical features, removing duplicates, and handling inappropriate or invalid values.
-
 8. What is Feature Engineering in an ML Pipeline? Ans- Feature engineering is the process of creating, transforming, or selecting input features that help a machine learning model learn useful patterns. It can include transformations, aggregations, interaction features, encoding, and domain-specific feature creation.
 
 9. What is Data Leakage in an ML Pipeline? Ans- Data leakage occurs when information that would not be available at prediction time is used during model training. It can produce unrealistically high evaluation performance. A pipeline helps reduce leakage by ensuring that preprocessing and feature transformations are fitted only on appropriate training data.

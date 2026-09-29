@@ -949,3 +949,11 @@
 ### What is Data Validation in an ML Pipeline?
 
 **Answer:** Data validation checks whether incoming data satisfies expected requirements such as schema, data types, ranges, missing-value constraints, feature availability, and statistical properties. It helps prevent invalid data from entering downstream ML stages.
+
+---
+
+## Interview Question
+
+### What is Data Preprocessing in an ML Pipeline?
+
+**Answer:** Data preprocessing transforms raw data into a format suitable for machine learning. Common operations include handling missing values, encoding categorical variables, scaling numerical features, removing duplicates, and handling inappropriate or invalid values.
