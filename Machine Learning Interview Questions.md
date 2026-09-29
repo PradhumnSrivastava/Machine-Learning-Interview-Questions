@@ -933,3 +933,11 @@
 ### What is the difference between a Data Pipeline and an ML Pipeline?
 
 **Answer:** A Data Pipeline primarily focuses on collecting, transforming, validating, and delivering data, while an ML Pipeline extends this workflow to include machine learning-specific steps such as feature engineering, model training, evaluation, deployment, and retraining.
+
+---
+
+## Interview Question
+
+### What is Data Ingestion in an ML Pipeline?
+
+**Answer:** Data ingestion is the process of collecting data from sources such as databases, APIs, files, data warehouses, or streaming systems and bringing it into the ML workflow for further processing.
