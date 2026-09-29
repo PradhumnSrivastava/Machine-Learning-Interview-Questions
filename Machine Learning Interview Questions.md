@@ -909,3 +909,11 @@
 ### What is an ML Pipeline?
 
 **Answer:** An ML Pipeline is a sequence of automated steps that takes raw data through processes such as data validation, preprocessing, feature engineering, model training, evaluation, and deployment. It makes the machine learning workflow reproducible, consistent, and easier to maintain.
+
+---
+
+## Interview Question
+
+### Why are ML Pipelines important?
+
+**Answer:** ML Pipelines automate repetitive machine learning workflows, reduce manual errors, ensure consistent preprocessing between training and inference, improve reproducibility, and make it easier to retrain and deploy models.
