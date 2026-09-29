@@ -1,7 +1,5 @@
 # Questions Inbox
 
-9. What is Data Leakage in an ML Pipeline? Ans- Data leakage occurs when information that would not be available at prediction time is used during model training. It can produce unrealistically high evaluation performance. A pipeline helps reduce leakage by ensuring that preprocessing and feature transformations are fitted only on appropriate training data.
-
 10. Why should preprocessing be included inside the ML Pipeline? Ans- Putting preprocessing inside the pipeline ensures that the same transformations are consistently applied during training, validation, testing, and inference. It also helps prevent data leakage and makes the complete workflow reproducible.
 
 11. What is the difference between Training, Validation, and Test data in an ML Pipeline? Ans- Training data is used to learn model parameters, validation data is used for model selection and hyperparameter tuning, and test data is used for final unbiased evaluation. The test set should remain isolated until final evaluation.
