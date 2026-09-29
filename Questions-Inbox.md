@@ -1,7 +1,5 @@
 # Questions Inbox
 
-4. What is Cross-Validation? Ans- Cross-validation is a model evaluation technique that divides the available training data into multiple subsets and repeatedly trains and validates the model on different subsets. It provides a more reliable estimate of model performance and is commonly used for model selection and hyperparameter tuning.
-
 5. What is Regularization in Machine Learning? Ans- Regularization is a technique used to reduce overfitting by adding a penalty for model complexity to the loss function. L1 and L2 regularization are commonly used methods that constrain model parameters.
 
 6. What is the difference between L1 and L2 Regularization? Ans- L1 regularization adds a penalty proportional to the absolute values of model coefficients, while L2 regularization adds a penalty proportional to their squared values. L1 can drive some coefficients exactly to zero, which can perform feature selection, whereas L2 generally shrinks coefficients without making them exactly zero.
