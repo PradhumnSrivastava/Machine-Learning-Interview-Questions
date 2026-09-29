@@ -1,7 +1,5 @@
 # Questions Inbox
 
-15. How can ML Pipelines be made reproducible? Ans- Reproducibility can be improved by versioning datasets, code, configurations, dependencies, preprocessing logic, and model artifacts. Fixed random seeds, experiment tracking tools, Git, DVC, containers, and workflow orchestration can also help reproduce experiments and models.
-
 16. What is the role of CI/CD in an ML Pipeline? Ans- CI/CD automates software integration, testing, building, and deployment processes. In ML systems, CI can test data-processing and model code, while CD can automate the packaging and deployment of validated models and pipeline components.
 
 17. What is an ML Orchestrator? Ans- An ML orchestrator manages and coordinates different steps of an ML workflow. It can handle task dependencies, scheduling, retries, parallel execution, monitoring, and pipeline execution. Examples include Airflow, Kubeflow, Prefect, and Dagster.

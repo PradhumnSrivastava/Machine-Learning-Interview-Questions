@@ -1013,3 +1013,11 @@
 ### What is Model Evaluation in an ML Pipeline?
 
 **Answer:** Model evaluation measures how well a trained model performs using appropriate metrics. For classification, metrics may include accuracy, precision, recall, F1-score, and ROC-AUC, while regression commonly uses MAE, MSE, RMSE, and R².
+
+---
+
+## Interview Question
+
+### How can ML Pipelines be made reproducible?
+
+**Answer:** Reproducibility can be improved by versioning datasets, code, configurations, dependencies, preprocessing logic, and model artifacts. Fixed random seeds, experiment tracking tools, Git, DVC, containers, and workflow orchestration can also help reproduce experiments and models.
