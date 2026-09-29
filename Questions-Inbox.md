@@ -1,7 +1,5 @@
 # Questions Inbox
 
-6. What is Data Validation in an ML Pipeline? Ans- Data validation checks whether incoming data satisfies expected requirements such as schema, data types, ranges, missing-value constraints, feature availability, and statistical properties. It helps prevent invalid data from entering downstream ML stages.
-
 7. What is Data Preprocessing in an ML Pipeline? Ans- Data preprocessing transforms raw data into a format suitable for machine learning. Common operations include handling missing values, encoding categorical variables, scaling numerical features, removing duplicates, and handling inappropriate or invalid values.
 
 8. What is Feature Engineering in an ML Pipeline? Ans- Feature engineering is the process of creating, transforming, or selecting input features that help a machine learning model learn useful patterns. It can include transformations, aggregations, interaction features, encoding, and domain-specific feature creation.

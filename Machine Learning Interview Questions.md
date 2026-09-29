@@ -941,3 +941,11 @@
 ### What is Data Ingestion in an ML Pipeline?
 
 **Answer:** Data ingestion is the process of collecting data from sources such as databases, APIs, files, data warehouses, or streaming systems and bringing it into the ML workflow for further processing.
+
+---
+
+## Interview Question
+
+### What is Data Validation in an ML Pipeline?
+
+**Answer:** Data validation checks whether incoming data satisfies expected requirements such as schema, data types, ranges, missing-value constraints, feature availability, and statistical properties. It helps prevent invalid data from entering downstream ML stages.
