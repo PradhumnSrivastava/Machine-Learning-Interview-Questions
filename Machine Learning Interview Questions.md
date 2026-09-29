@@ -1037,3 +1037,11 @@
 ### What is an ML Orchestrator?
 
 **Answer:** An ML orchestrator manages and coordinates different steps of an ML workflow. It can handle task dependencies, scheduling, retries, parallel execution, monitoring, and pipeline execution. Examples include Airflow, Kubeflow, Prefect, and Dagster.
+
+---
+
+## Interview Question
+
+### What is Model Versioning in an ML Pipeline?
+
+**Answer:** Model versioning involves maintaining different versions of trained models along with their associated code, data, parameters, metrics, and artifacts. It allows teams to reproduce experiments, compare models, roll back deployments, and track which model is running in production.
