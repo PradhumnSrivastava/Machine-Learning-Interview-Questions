@@ -917,3 +917,11 @@
 ### Why are ML Pipelines important?
 
 **Answer:** ML Pipelines automate repetitive machine learning workflows, reduce manual errors, ensure consistent preprocessing between training and inference, improve reproducibility, and make it easier to retrain and deploy models.
+
+---
+
+## Interview Question
+
+### What are the typical stages of an ML Pipeline?
+
+**Answer:** A typical ML Pipeline contains data ingestion, data validation, data preprocessing, feature engineering, model training, model evaluation, model selection, model registration, and deployment. Monitoring and retraining can be added as part of the production lifecycle.
