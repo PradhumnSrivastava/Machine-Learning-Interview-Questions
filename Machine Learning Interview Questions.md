@@ -1133,3 +1133,11 @@
 ### What is Feature Selection?
 
 **Answer:** Feature Selection is the process of selecting the most relevant input features for a machine learning model while removing irrelevant or redundant features. It can reduce dimensionality, improve interpretability, reduce computational cost, and sometimes improve generalization.
+
+---
+
+## Interview Question
+
+### What is the difference between a Model Parameter and a Hyperparameter?
+
+**Answer:** Model parameters are learned automatically from training data, such as weights in linear regression or neural networks. Hyperparameters are configuration values chosen before or during training, such as the learning rate, tree depth, number of neighbors in KNN, or regularization strength.
