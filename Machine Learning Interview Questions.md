@@ -957,3 +957,11 @@
 ### What is Data Preprocessing in an ML Pipeline?
 
 **Answer:** Data preprocessing transforms raw data into a format suitable for machine learning. Common operations include handling missing values, encoding categorical variables, scaling numerical features, removing duplicates, and handling inappropriate or invalid values.
+
+---
+
+## Interview Question
+
+### What is Feature Engineering in an ML Pipeline?
+
+**Answer:** Feature engineering is the process of creating, transforming, or selecting input features that help a machine learning model learn useful patterns. It can include transformations, aggregations, interaction features, encoding, and domain-specific feature creation.

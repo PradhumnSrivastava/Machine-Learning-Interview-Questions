@@ -1,7 +1,5 @@
 # Questions Inbox
 
-8. What is Feature Engineering in an ML Pipeline? Ans- Feature engineering is the process of creating, transforming, or selecting input features that help a machine learning model learn useful patterns. It can include transformations, aggregations, interaction features, encoding, and domain-specific feature creation.
-
 9. What is Data Leakage in an ML Pipeline? Ans- Data leakage occurs when information that would not be available at prediction time is used during model training. It can produce unrealistically high evaluation performance. A pipeline helps reduce leakage by ensuring that preprocessing and feature transformations are fitted only on appropriate training data.
 
 10. Why should preprocessing be included inside the ML Pipeline? Ans- Putting preprocessing inside the pipeline ensures that the same transformations are consistently applied during training, validation, testing, and inference. It also helps prevent data leakage and makes the complete workflow reproducible.
