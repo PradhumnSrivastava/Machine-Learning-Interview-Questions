@@ -5,8 +5,13 @@ on:
     # 3:00 PM IST = 09:30 UTC
     - cron: "30 9 * * *"
 
-  # Manual testing ke liye
+  # Manual testing
   workflow_dispatch:
+
+# Prevent multiple workflow runs from modifying main simultaneously
+concurrency:
+  group: daily-ml-questions
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -16,19 +21,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # --------------------------------------------------
+      # 1. Checkout repository
+      # --------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # --------------------------------------------------
+      # 2. Configure Git
+      # --------------------------------------------------
       - name: Configure Git
         run: |
           git config user.name "PradhumnSrivastava"
           git config user.email "177670434+PradhumnSrivastava@users.noreply.github.com"
 
+      # --------------------------------------------------
+      # 3. Process questions
+      # --------------------------------------------------
       - name: Process up to 10 questions
         run: |
           python - <<'PY'
+
           from pathlib import Path
           import subprocess
           import re
@@ -38,18 +54,22 @@ jobs:
 
           MAX_QUESTIONS = 10
 
+          # --------------------------------------------------
           # Read inbox
+          # --------------------------------------------------
+
           text = inbox.read_text(encoding="utf-8")
 
-          # Supported formats:
+          # Supported format:
           #
           # 1. Question? Ans- Answer
-          # 1) Question? Ans- Answer
+          # 2. Question? Ans- Answer
           # - Question? Ans- Answer
           # * Question? Ans- Answer
 
           pattern = re.compile(
-              r"^(?:\s*(?:\d+[.)]\s+|[-*]\s+))(.+?)\s+Ans[-–—]\s*(.+)$",
+              r"^(?:\s*(?:\d+[.)]\s+|[-*]\s+))"
+              r"(.+?)\s+Ans[-–—]\s*(.+)$",
               re.MULTILINE
           )
 
@@ -61,6 +81,10 @@ jobs:
 
           print(f"Found {len(matches)} question(s).")
 
+          # --------------------------------------------------
+          # Process each question separately
+          # --------------------------------------------------
+
           for number, match in enumerate(matches, start=1):
 
               question = match.group(1).strip()
@@ -68,10 +92,14 @@ jobs:
 
               print()
               print("=" * 80)
-              print(f"Processing question {number}: {question}")
+              print(f"PROCESSING QUESTION {number}")
+              print(f"Question: {question}")
               print("=" * 80)
 
-              # Sync with latest remote main
+              # --------------------------------------------------
+              # Sync with latest main
+              # --------------------------------------------------
+
               subprocess.run(
                   ["git", "fetch", "origin", "main"],
                   check=True
@@ -82,7 +110,10 @@ jobs:
                   check=True
               )
 
+              # --------------------------------------------------
               # Read latest files
+              # --------------------------------------------------
+
               current_inbox = inbox.read_text(
                   encoding="utf-8"
               )
@@ -91,11 +122,15 @@ jobs:
                   encoding="utf-8"
               ).rstrip()
 
-              # Remove this question from inbox
+              # --------------------------------------------------
+              # Remove question from inbox
+              # --------------------------------------------------
+
               escaped_question = re.escape(question)
 
               remove_pattern = re.compile(
-                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+){escaped_question}"
+                  rf"^\s*(?:\d+[.)]\s+|[-*]\s+)"
+                  rf"{escaped_question}"
                   rf"\s+Ans[-–—]\s*.+$\n?",
                   re.MULTILINE
               )
@@ -116,7 +151,10 @@ jobs:
                   encoding="utf-8"
               )
 
-              # Add question and answer to main file
+              # --------------------------------------------------
+              # Add question to main file
+              # --------------------------------------------------
+
               question_block = f"""
 
           ---
@@ -133,7 +171,10 @@ jobs:
                   encoding="utf-8"
               )
 
-              # Stage files
+              # --------------------------------------------------
+              # Stage changes
+              # --------------------------------------------------
+
               subprocess.run(
                   [
                       "git",
@@ -144,18 +185,28 @@ jobs:
                   check=True
               )
 
-              # Create separate commit
+              # --------------------------------------------------
+              # Create ONE dedicated commit
+              # --------------------------------------------------
+
+              commit_message = (
+                  f"Add ML Question {number}: {question}"
+              )
+
               subprocess.run(
                   [
                       "git",
                       "commit",
                       "-m",
-                      f"Add ML interview question: {question}"
+                      commit_message
                   ],
                   check=True
               )
 
-              # Push this question separately
+              # --------------------------------------------------
+              # Push ONLY this question's commit
+              # --------------------------------------------------
+
               subprocess.run(
                   [
                       "git",
@@ -166,14 +217,22 @@ jobs:
                   check=True
               )
 
+              print()
               print(
                   f"SUCCESS: Question {number} committed and pushed."
               )
+              print(
+                  f"Commit: {commit_message}"
+              )
+
+          # --------------------------------------------------
+          # Finished
+          # --------------------------------------------------
 
           print()
           print("=" * 80)
           print(
-              f"Finished processing {len(matches)} question(s)."
+              f"FINISHED: {len(matches)} question(s) processed."
           )
           print("=" * 80)
 
