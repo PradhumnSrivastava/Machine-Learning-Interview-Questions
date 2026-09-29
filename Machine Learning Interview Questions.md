@@ -1125,3 +1125,11 @@
 ### What is Data Leakage in Machine Learning?
 
 **Answer:** Data leakage occurs when information that would not be available when making a real-world prediction is unintentionally used during model training. It can cause unrealistically high evaluation performance and poor performance after deployment.
+
+---
+
+## Interview Question
+
+### What is Feature Selection?
+
+**Answer:** Feature Selection is the process of selecting the most relevant input features for a machine learning model while removing irrelevant or redundant features. It can reduce dimensionality, improve interpretability, reduce computational cost, and sometimes improve generalization.
