@@ -1093,3 +1093,11 @@
 ### What is Cross-Validation?
 
 **Answer:** Cross-validation is a model evaluation technique that divides the available training data into multiple subsets and repeatedly trains and validates the model on different subsets. It provides a more reliable estimate of model performance and is commonly used for model selection and hyperparameter tuning.
+
+---
+
+## Interview Question
+
+### What is Regularization in Machine Learning?
+
+**Answer:** Regularization is a technique used to reduce overfitting by adding a penalty for model complexity to the loss function. L1 and L2 regularization are commonly used methods that constrain model parameters.
