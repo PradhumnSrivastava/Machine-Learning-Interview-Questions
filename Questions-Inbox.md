@@ -1,1 +1,40 @@
 # Questions Inbox
+1. What is an ML Pipeline? Ans- An ML Pipeline is a sequence of automated steps that takes raw data through processes such as data validation, preprocessing, feature engineering, model training, evaluation, and deployment. It makes the machine learning workflow reproducible, consistent, and easier to maintain.
+
+2. Why are ML Pipelines important? Ans- ML Pipelines automate repetitive machine learning workflows, reduce manual errors, ensure consistent preprocessing between training and inference, improve reproducibility, and make it easier to retrain and deploy models.
+
+3. What are the typical stages of an ML Pipeline? Ans- A typical ML Pipeline contains data ingestion, data validation, data preprocessing, feature engineering, model training, model evaluation, model selection, model registration, and deployment. Monitoring and retraining can be added as part of the production lifecycle.
+
+4. What is the difference between a Data Pipeline and an ML Pipeline? Ans- A Data Pipeline primarily focuses on collecting, transforming, validating, and delivering data, while an ML Pipeline extends this workflow to include machine learning-specific steps such as feature engineering, model training, evaluation, deployment, and retraining.
+
+5. What is Data Ingestion in an ML Pipeline? Ans- Data ingestion is the process of collecting data from sources such as databases, APIs, files, data warehouses, or streaming systems and bringing it into the ML workflow for further processing.
+
+6. What is Data Validation in an ML Pipeline? Ans- Data validation checks whether incoming data satisfies expected requirements such as schema, data types, ranges, missing-value constraints, feature availability, and statistical properties. It helps prevent invalid data from entering downstream ML stages.
+
+7. What is Data Preprocessing in an ML Pipeline? Ans- Data preprocessing transforms raw data into a format suitable for machine learning. Common operations include handling missing values, encoding categorical variables, scaling numerical features, removing duplicates, and handling inappropriate or invalid values.
+
+8. What is Feature Engineering in an ML Pipeline? Ans- Feature engineering is the process of creating, transforming, or selecting input features that help a machine learning model learn useful patterns. It can include transformations, aggregations, interaction features, encoding, and domain-specific feature creation.
+
+9. What is Data Leakage in an ML Pipeline? Ans- Data leakage occurs when information that would not be available at prediction time is used during model training. It can produce unrealistically high evaluation performance. A pipeline helps reduce leakage by ensuring that preprocessing and feature transformations are fitted only on appropriate training data.
+
+10. Why should preprocessing be included inside the ML Pipeline? Ans- Putting preprocessing inside the pipeline ensures that the same transformations are consistently applied during training, validation, testing, and inference. It also helps prevent data leakage and makes the complete workflow reproducible.
+
+11. What is the difference between Training, Validation, and Test data in an ML Pipeline? Ans- Training data is used to learn model parameters, validation data is used for model selection and hyperparameter tuning, and test data is used for final unbiased evaluation. The test set should remain isolated until final evaluation.
+
+12. How does an ML Pipeline prevent inconsistent preprocessing between training and production? Ans- The pipeline stores preprocessing steps together with the model workflow so that the same transformations can be applied to new production data. This prevents situations where training data and inference data are processed differently.
+
+13. What is Hyperparameter Tuning in an ML Pipeline? Ans- Hyperparameter tuning is the process of finding suitable values for parameters that are not learned directly from the training data, such as learning rate, tree depth, regularization strength, or number of neighbors. Techniques such as Grid Search, Random Search, and Bayesian optimization can be integrated into ML Pipelines.
+
+14. What is Model Evaluation in an ML Pipeline? Ans- Model evaluation measures how well a trained model performs using appropriate metrics. For classification, metrics may include accuracy, precision, recall, F1-score, and ROC-AUC, while regression commonly uses MAE, MSE, RMSE, and R².
+
+15. How can ML Pipelines be made reproducible? Ans- Reproducibility can be improved by versioning datasets, code, configurations, dependencies, preprocessing logic, and model artifacts. Fixed random seeds, experiment tracking tools, Git, DVC, containers, and workflow orchestration can also help reproduce experiments and models.
+
+16. What is the role of CI/CD in an ML Pipeline? Ans- CI/CD automates software integration, testing, building, and deployment processes. In ML systems, CI can test data-processing and model code, while CD can automate the packaging and deployment of validated models and pipeline components.
+
+17. What is an ML Orchestrator? Ans- An ML orchestrator manages and coordinates different steps of an ML workflow. It can handle task dependencies, scheduling, retries, parallel execution, monitoring, and pipeline execution. Examples include Airflow, Kubeflow, Prefect, and Dagster.
+
+18. What is Model Versioning in an ML Pipeline? Ans- Model versioning involves maintaining different versions of trained models along with their associated code, data, parameters, metrics, and artifacts. It allows teams to reproduce experiments, compare models, roll back deployments, and track which model is running in production.
+
+19. How does an ML Pipeline handle model retraining? Ans- A production pipeline can be triggered periodically or when conditions such as new data, data drift, performance degradation, or a business-defined event occur. The pipeline can ingest new data, validate it, retrain the model, evaluate the new model, and deploy it only if it satisfies predefined criteria.
+
+20. What is the difference between an ML Pipeline and an ML Production Lifecycle? Ans- An ML Pipeline represents an automated sequence of connected ML tasks, such as data processing, training, and evaluation. The ML Production Lifecycle is broader and includes data collection, pipeline execution, deployment, monitoring, model versioning, feedback, retraining, and continuous improvement of the production system.
