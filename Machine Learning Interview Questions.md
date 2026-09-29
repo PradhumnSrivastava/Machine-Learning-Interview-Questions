@@ -925,3 +925,11 @@
 ### What are the typical stages of an ML Pipeline?
 
 **Answer:** A typical ML Pipeline contains data ingestion, data validation, data preprocessing, feature engineering, model training, model evaluation, model selection, model registration, and deployment. Monitoring and retraining can be added as part of the production lifecycle.
+
+---
+
+## Interview Question
+
+### What is the difference between a Data Pipeline and an ML Pipeline?
+
+**Answer:** A Data Pipeline primarily focuses on collecting, transforming, validating, and delivering data, while an ML Pipeline extends this workflow to include machine learning-specific steps such as feature engineering, model training, evaluation, deployment, and retraining.
