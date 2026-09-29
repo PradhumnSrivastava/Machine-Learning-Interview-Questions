@@ -1069,3 +1069,11 @@
 ### What is Overfitting in Machine Learning?
 
 **Answer:** Overfitting occurs when a model learns the training data too closely, including noise and random patterns, resulting in very good training performance but poor performance on unseen data.
+
+---
+
+## Interview Question
+
+### What is Underfitting in Machine Learning?
+
+**Answer:** Underfitting occurs when a model is too simple to capture the underlying patterns in the data. It usually results in poor performance on both training and unseen data.

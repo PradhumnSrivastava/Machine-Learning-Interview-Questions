@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. What is Underfitting in Machine Learning? Ans- Underfitting occurs when a model is too simple to capture the underlying patterns in the data. It usually results in poor performance on both training and unseen data.
-
 3. What is the Bias-Variance Tradeoff? Ans- The Bias-Variance Tradeoff describes the balance between errors caused by overly simple assumptions and errors caused by excessive sensitivity to the training data. High bias can lead to underfitting, while high variance can lead to overfitting.
 
 4. What is Cross-Validation? Ans- Cross-validation is a model evaluation technique that divides the available training data into multiple subsets and repeatedly trains and validates the model on different subsets. It provides a more reliable estimate of model performance and is commonly used for model selection and hyperparameter tuning.
