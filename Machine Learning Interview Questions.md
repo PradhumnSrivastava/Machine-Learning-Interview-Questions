@@ -1101,3 +1101,11 @@
 ### What is Regularization in Machine Learning?
 
 **Answer:** Regularization is a technique used to reduce overfitting by adding a penalty for model complexity to the loss function. L1 and L2 regularization are commonly used methods that constrain model parameters.
+
+---
+
+## Interview Question
+
+### What is the difference between L1 and L2 Regularization?
+
+**Answer:** L1 regularization adds a penalty proportional to the absolute values of model coefficients, while L2 regularization adds a penalty proportional to their squared values. L1 can drive some coefficients exactly to zero, which can perform feature selection, whereas L2 generally shrinks coefficients without making them exactly zero.
