@@ -1109,3 +1109,11 @@
 ### What is the difference between L1 and L2 Regularization?
 
 **Answer:** L1 regularization adds a penalty proportional to the absolute values of model coefficients, while L2 regularization adds a penalty proportional to their squared values. L1 can drive some coefficients exactly to zero, which can perform feature selection, whereas L2 generally shrinks coefficients without making them exactly zero.
+
+---
+
+## Interview Question
+
+### What is Gradient Descent?
+
+**Answer:** Gradient Descent is an optimization algorithm used to minimize a differentiable objective function by iteratively updating model parameters in the opposite direction of the gradient. The learning rate controls the size of each parameter update.
