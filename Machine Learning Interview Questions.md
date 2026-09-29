@@ -901,3 +901,11 @@
 ### What is the difference between K-Means and hierarchical clustering?
 
 **Answer:** K-Means directly partitions data into a predefined number of clusters by iteratively updating centroids, whereas hierarchical clustering builds a hierarchy of clusters that can be represented using a dendrogram. Hierarchical clustering does not necessarily require choosing the final number of clusters before constructing the hierarchy.
+
+---
+
+## Interview Question
+
+### What is an ML Pipeline?
+
+**Answer:** An ML Pipeline is a sequence of automated steps that takes raw data through processes such as data validation, preprocessing, feature engineering, model training, evaluation, and deployment. It makes the machine learning workflow reproducible, consistent, and easier to maintain.
