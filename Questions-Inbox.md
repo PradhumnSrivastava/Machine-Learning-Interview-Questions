@@ -1,7 +1,5 @@
 # Questions Inbox
 
-14. What is Model Evaluation in an ML Pipeline? Ans- Model evaluation measures how well a trained model performs using appropriate metrics. For classification, metrics may include accuracy, precision, recall, F1-score, and ROC-AUC, while regression commonly uses MAE, MSE, RMSE, and R².
-
 15. How can ML Pipelines be made reproducible? Ans- Reproducibility can be improved by versioning datasets, code, configurations, dependencies, preprocessing logic, and model artifacts. Fixed random seeds, experiment tracking tools, Git, DVC, containers, and workflow orchestration can also help reproduce experiments and models.
 
 16. What is the role of CI/CD in an ML Pipeline? Ans- CI/CD automates software integration, testing, building, and deployment processes. In ML systems, CI can test data-processing and model code, while CD can automate the packaging and deployment of validated models and pipeline components.

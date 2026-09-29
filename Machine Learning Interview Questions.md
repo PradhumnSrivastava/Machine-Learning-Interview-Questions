@@ -1005,3 +1005,11 @@
 ### What is Hyperparameter Tuning in an ML Pipeline?
 
 **Answer:** Hyperparameter tuning is the process of finding suitable values for parameters that are not learned directly from the training data, such as learning rate, tree depth, regularization strength, or number of neighbors. Techniques such as Grid Search, Random Search, and Bayesian optimization can be integrated into ML Pipelines.
+
+---
+
+## Interview Question
+
+### What is Model Evaluation in an ML Pipeline?
+
+**Answer:** Model evaluation measures how well a trained model performs using appropriate metrics. For classification, metrics may include accuracy, precision, recall, F1-score, and ROC-AUC, while regression commonly uses MAE, MSE, RMSE, and R².
