@@ -1021,3 +1021,11 @@
 ### How can ML Pipelines be made reproducible?
 
 **Answer:** Reproducibility can be improved by versioning datasets, code, configurations, dependencies, preprocessing logic, and model artifacts. Fixed random seeds, experiment tracking tools, Git, DVC, containers, and workflow orchestration can also help reproduce experiments and models.
+
+---
+
+## Interview Question
+
+### What is the role of CI/CD in an ML Pipeline?
+
+**Answer:** CI/CD automates software integration, testing, building, and deployment processes. In ML systems, CI can test data-processing and model code, while CD can automate the packaging and deployment of validated models and pipeline components.
