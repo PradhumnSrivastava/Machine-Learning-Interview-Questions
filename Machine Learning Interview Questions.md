@@ -997,3 +997,11 @@
 ### How does an ML Pipeline prevent inconsistent preprocessing between training and production?
 
 **Answer:** The pipeline stores preprocessing steps together with the model workflow so that the same transformations can be applied to new production data. This prevents situations where training data and inference data are processed differently.
+
+---
+
+## Interview Question
+
+### What is Hyperparameter Tuning in an ML Pipeline?
+
+**Answer:** Hyperparameter tuning is the process of finding suitable values for parameters that are not learned directly from the training data, such as learning rate, tree depth, regularization strength, or number of neighbors. Techniques such as Grid Search, Random Search, and Bayesian optimization can be integrated into ML Pipelines.
