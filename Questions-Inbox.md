@@ -1,7 +1,5 @@
 # Questions Inbox
 
-11. What is the difference between Training, Validation, and Test data in an ML Pipeline? Ans- Training data is used to learn model parameters, validation data is used for model selection and hyperparameter tuning, and test data is used for final unbiased evaluation. The test set should remain isolated until final evaluation.
-
 12. How does an ML Pipeline prevent inconsistent preprocessing between training and production? Ans- The pipeline stores preprocessing steps together with the model workflow so that the same transformations can be applied to new production data. This prevents situations where training data and inference data are processed differently.
 
 13. What is Hyperparameter Tuning in an ML Pipeline? Ans- Hyperparameter tuning is the process of finding suitable values for parameters that are not learned directly from the training data, such as learning rate, tree depth, regularization strength, or number of neighbors. Techniques such as Grid Search, Random Search, and Bayesian optimization can be integrated into ML Pipelines.

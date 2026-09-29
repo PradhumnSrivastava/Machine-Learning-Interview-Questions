@@ -981,3 +981,11 @@
 ### Why should preprocessing be included inside the ML Pipeline?
 
 **Answer:** Putting preprocessing inside the pipeline ensures that the same transformations are consistently applied during training, validation, testing, and inference. It also helps prevent data leakage and makes the complete workflow reproducible.
+
+---
+
+## Interview Question
+
+### What is the difference between Training, Validation, and Test data in an ML Pipeline?
+
+**Answer:** Training data is used to learn model parameters, validation data is used for model selection and hyperparameter tuning, and test data is used for final unbiased evaluation. The test set should remain isolated until final evaluation.
