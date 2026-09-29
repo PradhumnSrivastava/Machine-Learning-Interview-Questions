@@ -1117,3 +1117,11 @@
 ### What is Gradient Descent?
 
 **Answer:** Gradient Descent is an optimization algorithm used to minimize a differentiable objective function by iteratively updating model parameters in the opposite direction of the gradient. The learning rate controls the size of each parameter update.
+
+---
+
+## Interview Question
+
+### What is Data Leakage in Machine Learning?
+
+**Answer:** Data leakage occurs when information that would not be available when making a real-world prediction is unintentionally used during model training. It can cause unrealistically high evaluation performance and poor performance after deployment.
