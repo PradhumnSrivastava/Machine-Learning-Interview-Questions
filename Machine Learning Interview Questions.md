@@ -1189,3 +1189,11 @@
 ### What is Stochastic Gradient Descent (SGD)?
 
 **Answer:** Stochastic Gradient Descent updates model parameters using one randomly selected training example at a time. It is computationally faster per update but produces noisier parameter updates.
+
+---
+
+## Interview Question
+
+### What is Mini-Batch Gradient Descent?
+
+**Answer:** Mini-Batch Gradient Descent divides the training dataset into small batches and updates the model parameters after processing each batch. It provides a balance between the efficiency of batch training and the faster updates of SGD.
