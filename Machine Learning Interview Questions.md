@@ -1141,3 +1141,11 @@
 ### What is the difference between a Model Parameter and a Hyperparameter?
 
 **Answer:** Model parameters are learned automatically from training data, such as weights in linear regression or neural networks. Hyperparameters are configuration values chosen before or during training, such as the learning rate, tree depth, number of neighbors in KNN, or regularization strength.
+
+---
+
+## Interview Question
+
+### What is Gradient Descent in Machine Learning?
+
+**Answer:** Gradient Descent is an optimization algorithm used to minimize a loss function by iteratively updating model parameters in the direction opposite to the gradient of the loss.
