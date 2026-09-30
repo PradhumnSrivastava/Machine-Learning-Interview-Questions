@@ -1,7 +1,5 @@
 # Questions Inbox
 
-4. What is the Gradient Descent update rule? Ans- The general update rule is θ_new = θ_old - η∇J(θ), where θ represents model parameters, η is the learning rate, and ∇J(θ) is the gradient of the loss function.
-
 5. What is Batch Gradient Descent? Ans- Batch Gradient Descent calculates the gradient using the entire training dataset before performing each parameter update. It provides stable updates but can be computationally expensive for large datasets.
 
 6. What is Stochastic Gradient Descent (SGD)? Ans- Stochastic Gradient Descent updates model parameters using one randomly selected training example at a time. It is computationally faster per update but produces noisier parameter updates.
