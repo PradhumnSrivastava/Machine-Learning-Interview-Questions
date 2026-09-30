@@ -1173,3 +1173,11 @@
 ### What is the Gradient Descent update rule?
 
 **Answer:** The general update rule is θ_new = θ_old - η∇J(θ), where θ represents model parameters, η is the learning rate, and ∇J(θ) is the gradient of the loss function.
+
+---
+
+## Interview Question
+
+### What is Batch Gradient Descent?
+
+**Answer:** Batch Gradient Descent calculates the gradient using the entire training dataset before performing each parameter update. It provides stable updates but can be computationally expensive for large datasets.
