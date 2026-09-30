@@ -1213,3 +1213,11 @@
 ### Why does Gradient Descent move in the opposite direction of the gradient?
 
 **Answer:** The gradient points in the direction of the steepest increase in the loss function, so moving in the opposite direction produces the greatest local decrease in loss.
+
+---
+
+## Interview Question
+
+### What are common problems faced by Gradient Descent in deep learning?
+
+**Answer:** Gradient Descent can face problems such as vanishing gradients, exploding gradients, saddle points, local minima, slow convergence, and sensitivity to the learning rate.
