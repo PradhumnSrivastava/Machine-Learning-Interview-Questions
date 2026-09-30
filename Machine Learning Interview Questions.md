@@ -1197,3 +1197,11 @@
 ### What is Mini-Batch Gradient Descent?
 
 **Answer:** Mini-Batch Gradient Descent divides the training dataset into small batches and updates the model parameters after processing each batch. It provides a balance between the efficiency of batch training and the faster updates of SGD.
+
+---
+
+## Interview Question
+
+### What happens when the learning rate is too small or too large?
+
+**Answer:** A very small learning rate causes slow convergence, while a very large learning rate can cause the loss to oscillate, diverge, or overshoot the minimum.
