@@ -1,7 +1,5 @@
 # Questions Inbox
 
-15. What is an epoch in Gradient Descent? Ans- An epoch represents one complete pass through the entire training dataset. In Mini-Batch Gradient Descent, multiple parameter updates are usually performed during one epoch.
-
 16. What is the difference between an iteration and an epoch? Ans- An iteration generally represents one parameter update, while an epoch represents one complete pass through the entire training dataset. With mini-batches, one epoch contains multiple iterations.
 
 17. Why is feature scaling important for Gradient Descent? Ans- Feature scaling puts features on comparable scales, which can make the loss surface better conditioned and help Gradient Descent converge faster and more efficiently.

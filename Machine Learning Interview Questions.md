@@ -1333,3 +1333,11 @@
 ### What is learning rate decay in Gradient Descent?
 
 **Answer:** Learning rate decay gradually decreases the learning rate during training, allowing larger updates initially and smaller, more precise updates as the model approaches a minimum.
+
+---
+
+## Interview Question
+
+### What is an epoch in Gradient Descent?
+
+**Answer:** An epoch represents one complete pass through the entire training dataset. In Mini-Batch Gradient Descent, multiple parameter updates are usually performed during one epoch.
