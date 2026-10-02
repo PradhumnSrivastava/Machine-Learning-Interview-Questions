@@ -1365,3 +1365,11 @@
 ### What is a saddle point in Gradient Descent?
 
 **Answer:** A saddle point is a point where the gradient can be zero but the point is neither a local minimum nor a local maximum. In high-dimensional neural networks, saddle points can slow optimization.
+
+---
+
+## Interview Question
+
+### How does batch size affect Gradient Descent?
+
+**Answer:** A larger batch size generally produces more stable gradient estimates but requires more memory, while a smaller batch size produces noisier updates but can require less memory and may sometimes help optimization escape flat or unfavorable regions.
