@@ -1317,3 +1317,11 @@
 ### What is momentum in Gradient Descent?
 
 **Answer:** Momentum accelerates Gradient Descent by using a fraction of the previous parameter update along with the current gradient, helping reduce oscillations and move faster in consistent directions.
+
+---
+
+## Interview Question
+
+### What is the difference between Gradient Descent and Momentum-based Gradient Descent?
+
+**Answer:** Standard Gradient Descent updates parameters using only the current gradient, while Momentum also considers previous updates to accelerate convergence and reduce oscillations.
