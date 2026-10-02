@@ -1,7 +1,5 @@
 # Questions Inbox
 
-14. What is learning rate decay in Gradient Descent? Ans- Learning rate decay gradually decreases the learning rate during training, allowing larger updates initially and smaller, more precise updates as the model approaches a minimum.
-
 15. What is an epoch in Gradient Descent? Ans- An epoch represents one complete pass through the entire training dataset. In Mini-Batch Gradient Descent, multiple parameter updates are usually performed during one epoch.
 
 16. What is the difference between an iteration and an epoch? Ans- An iteration generally represents one parameter update, while an epoch represents one complete pass through the entire training dataset. With mini-batches, one epoch contains multiple iterations.
