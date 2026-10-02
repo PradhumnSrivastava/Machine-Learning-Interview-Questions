@@ -1261,3 +1261,11 @@
 ### What is Batch Gradient Descent?
 
 **Answer:** Batch Gradient Descent calculates the gradient using the entire training dataset before performing each parameter update. It provides stable updates but can be computationally expensive for large datasets.
+
+---
+
+## Interview Question
+
+### What is Stochastic Gradient Descent (SGD)?
+
+**Answer:** Stochastic Gradient Descent updates model parameters using one randomly selected training example at a time. It is computationally faster per update but produces noisier parameter updates.
