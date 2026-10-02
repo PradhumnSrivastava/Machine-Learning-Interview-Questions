@@ -1357,3 +1357,11 @@
 ### Why is feature scaling important for Gradient Descent?
 
 **Answer:** Feature scaling puts features on comparable scales, which can make the loss surface better conditioned and help Gradient Descent converge faster and more efficiently.
+
+---
+
+## Interview Question
+
+### What is a saddle point in Gradient Descent?
+
+**Answer:** A saddle point is a point where the gradient can be zero but the point is neither a local minimum nor a local maximum. In high-dimensional neural networks, saddle points can slow optimization.
