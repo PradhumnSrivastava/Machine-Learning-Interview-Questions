@@ -1,7 +1,5 @@
 # Questions Inbox
 
-3. What is the role of the learning rate in Gradient Descent? Ans- The learning rate controls the size of each parameter update. A very small learning rate makes training slow, while a very large learning rate can cause unstable training or prevent convergence.
-
 4. What is the Gradient Descent update rule? Ans- The general update rule is θ_new = θ_old - η∇J(θ), where θ represents model parameters, η is the learning rate, and ∇J(θ) is the gradient of the loss function.
 
 5. What is Batch Gradient Descent? Ans- Batch Gradient Descent calculates the gradient using the entire training dataset before performing each parameter update. It provides stable updates but can be computationally expensive for large datasets.
