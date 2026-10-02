@@ -1373,3 +1373,11 @@
 ### How does batch size affect Gradient Descent?
 
 **Answer:** A larger batch size generally produces more stable gradient estimates but requires more memory, while a smaller batch size produces noisier updates but can require less memory and may sometimes help optimization escape flat or unfavorable regions.
+
+---
+
+## Interview Question
+
+### How can Gradient Descent be improved for faster and more stable training?
+
+**Answer:** Gradient Descent can be improved using techniques such as Momentum, RMSProp, Adam, learning-rate scheduling, proper weight initialization, feature scaling, and appropriate batch sizes.
