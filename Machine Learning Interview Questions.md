@@ -1349,3 +1349,11 @@
 ### What is the difference between an iteration and an epoch?
 
 **Answer:** An iteration generally represents one parameter update, while an epoch represents one complete pass through the entire training dataset. With mini-batches, one epoch contains multiple iterations.
+
+---
+
+## Interview Question
+
+### Why is feature scaling important for Gradient Descent?
+
+**Answer:** Feature scaling puts features on comparable scales, which can make the loss surface better conditioned and help Gradient Descent converge faster and more efficiently.
