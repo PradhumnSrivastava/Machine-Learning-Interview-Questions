@@ -1245,3 +1245,11 @@
 ### What is the role of the learning rate in Gradient Descent?
 
 **Answer:** The learning rate controls the size of each parameter update. A very small learning rate makes training slow, while a very large learning rate can cause unstable training or prevent convergence.
+
+---
+
+## Interview Question
+
+### What is the Gradient Descent update rule?
+
+**Answer:** The general update rule is θ_new = θ_old - η∇J(θ), where θ represents model parameters, η is the learning rate, and ∇J(θ) is the gradient of the loss function.
