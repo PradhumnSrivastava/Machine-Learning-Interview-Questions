@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. Why is Gradient Descent used for training neural networks? Ans- Gradient Descent is used to find parameter values that minimize the loss function, allowing the neural network to make more accurate predictions.
-
 3. What is the role of the learning rate in Gradient Descent? Ans- The learning rate controls the size of each parameter update. A very small learning rate makes training slow, while a very large learning rate can cause unstable training or prevent convergence.
 
 4. What is the Gradient Descent update rule? Ans- The general update rule is θ_new = θ_old - η∇J(θ), where θ represents model parameters, η is the learning rate, and ∇J(θ) is the gradient of the loss function.

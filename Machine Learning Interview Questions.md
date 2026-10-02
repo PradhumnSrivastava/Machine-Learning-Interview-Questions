@@ -1229,3 +1229,11 @@
 ### What is Gradient Descent in Machine Learning?
 
 **Answer:** Gradient Descent is an optimization algorithm used to minimize a loss function by iteratively updating model parameters in the direction opposite to the gradient of the loss.
+
+---
+
+## Interview Question
+
+### Why is Gradient Descent used for training neural networks?
+
+**Answer:** Gradient Descent is used to find parameter values that minimize the loss function, allowing the neural network to make more accurate predictions.
