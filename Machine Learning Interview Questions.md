@@ -1285,3 +1285,11 @@
 ### What happens when the learning rate is too small or too large?
 
 **Answer:** A very small learning rate causes slow convergence, while a very large learning rate can cause the loss to oscillate, diverge, or overshoot the minimum.
+
+---
+
+## Interview Question
+
+### Why does Gradient Descent move in the opposite direction of the gradient?
+
+**Answer:** The gradient points in the direction of the steepest increase in the loss function, so moving in the opposite direction produces the greatest local decrease in loss.
