@@ -1,7 +1,5 @@
 # Questions Inbox
 
-16. What is the difference between an iteration and an epoch? Ans- An iteration generally represents one parameter update, while an epoch represents one complete pass through the entire training dataset. With mini-batches, one epoch contains multiple iterations.
-
 17. Why is feature scaling important for Gradient Descent? Ans- Feature scaling puts features on comparable scales, which can make the loss surface better conditioned and help Gradient Descent converge faster and more efficiently.
 
 18. What is a saddle point in Gradient Descent? Ans- A saddle point is a point where the gradient can be zero but the point is neither a local minimum nor a local maximum. In high-dimensional neural networks, saddle points can slow optimization.

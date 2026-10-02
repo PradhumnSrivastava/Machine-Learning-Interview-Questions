@@ -1341,3 +1341,11 @@
 ### What is an epoch in Gradient Descent?
 
 **Answer:** An epoch represents one complete pass through the entire training dataset. In Mini-Batch Gradient Descent, multiple parameter updates are usually performed during one epoch.
+
+---
+
+## Interview Question
+
+### What is the difference between an iteration and an epoch?
+
+**Answer:** An iteration generally represents one parameter update, while an epoch represents one complete pass through the entire training dataset. With mini-batches, one epoch contains multiple iterations.
