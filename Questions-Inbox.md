@@ -1,5 +1,4 @@
 # Questions Inbox
-11. What is the difference between a convex and non-convex loss function for Gradient Descent? Ans- A convex loss function has a single global minimum, making optimization easier, while a non-convex loss function can contain multiple local minima, saddle points, and flat regions.
 
 12. What is momentum in Gradient Descent? Ans- Momentum accelerates Gradient Descent by using a fraction of the previous parameter update along with the current gradient, helping reduce oscillations and move faster in consistent directions.
 

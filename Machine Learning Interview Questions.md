@@ -1301,3 +1301,11 @@
 ### What are common problems faced by Gradient Descent in deep learning?
 
 **Answer:** Gradient Descent can face problems such as vanishing gradients, exploding gradients, saddle points, local minima, slow convergence, and sensitivity to the learning rate.
+
+---
+
+## Interview Question
+
+### What is the difference between a convex and non-convex loss function for Gradient Descent?
+
+**Answer:** A convex loss function has a single global minimum, making optimization easier, while a non-convex loss function can contain multiple local minima, saddle points, and flat regions.
