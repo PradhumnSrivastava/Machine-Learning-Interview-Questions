@@ -1,7 +1,5 @@
 # Questions Inbox
 
-12. What is momentum in Gradient Descent? Ans- Momentum accelerates Gradient Descent by using a fraction of the previous parameter update along with the current gradient, helping reduce oscillations and move faster in consistent directions.
-
 13. What is the difference between Gradient Descent and Momentum-based Gradient Descent? Ans- Standard Gradient Descent updates parameters using only the current gradient, while Momentum also considers previous updates to accelerate convergence and reduce oscillations.
 
 14. What is learning rate decay in Gradient Descent? Ans- Learning rate decay gradually decreases the learning rate during training, allowing larger updates initially and smaller, more precise updates as the model approaches a minimum.
