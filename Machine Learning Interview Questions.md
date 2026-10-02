@@ -1221,3 +1221,11 @@
 ### What are common problems faced by Gradient Descent in deep learning?
 
 **Answer:** Gradient Descent can face problems such as vanishing gradients, exploding gradients, saddle points, local minima, slow convergence, and sensitivity to the learning rate.
+
+---
+
+## Interview Question
+
+### What is Gradient Descent in Machine Learning?
+
+**Answer:** Gradient Descent is an optimization algorithm used to minimize a loss function by iteratively updating model parameters in the direction opposite to the gradient of the loss.
