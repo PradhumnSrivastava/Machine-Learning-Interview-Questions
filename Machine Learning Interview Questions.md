@@ -1453,3 +1453,11 @@
 ### What is data labeling and why is it important?
 
 **Answer:** Data labeling is the process of assigning meaningful target labels or annotations to data, such as class labels for images or sentiment labels for text, which is essential for supervised learning.
+
+---
+
+## Interview Question
+
+### What is data leakage during data collection?
+
+**Answer:** Data leakage occurs when information that would not be legitimately available at prediction time is included in the training data, causing overly optimistic evaluation results and poor real-world performance.
