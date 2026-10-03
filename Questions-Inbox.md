@@ -1,7 +1,5 @@
 # Questions Inbox
 
-3. What factors should be considered when collecting data for a Machine Learning project? Ans- Relevance, data quality, quantity, representativeness, consistency, completeness, accuracy, cost, privacy, and legal requirements should be considered.
-
 4. What is the difference between primary and secondary data collection? Ans- Primary data is collected directly for a specific purpose, such as through surveys or experiments, while secondary data is obtained from existing sources such as databases, public datasets, or previously collected records.
 
 5. Why is data quality important during data collection? Ans- Poor-quality data can introduce noise, errors, missing values, and bias into the dataset, which can negatively affect model performance and reliability.

@@ -1397,3 +1397,11 @@
 ### What are the common sources of data for Machine Learning?
 
 **Answer:** Common sources include databases, APIs, web scraping, sensors, surveys, transaction systems, public datasets, application logs, and user-generated data.
+
+---
+
+## Interview Question
+
+### What factors should be considered when collecting data for a Machine Learning project?
+
+**Answer:** Relevance, data quality, quantity, representativeness, consistency, completeness, accuracy, cost, privacy, and legal requirements should be considered.
