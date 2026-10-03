@@ -1437,3 +1437,11 @@
 ### What is sampling bias in Machine Learning?
 
 **Answer:** Sampling bias occurs when the collected sample does not adequately represent the target population, causing the model to learn patterns that may not generalize well to the real-world population.
+
+---
+
+## Interview Question
+
+### How does the quantity of collected data affect a Machine Learning model?
+
+**Answer:** More relevant and representative data can help a model learn patterns more reliably and generalize better, although simply increasing the amount of low-quality or redundant data does not necessarily improve performance.
