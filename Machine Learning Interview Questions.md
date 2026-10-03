@@ -1413,3 +1413,11 @@
 ### What is the difference between primary and secondary data collection?
 
 **Answer:** Primary data is collected directly for a specific purpose, such as through surveys or experiments, while secondary data is obtained from existing sources such as databases, public datasets, or previously collected records.
+
+---
+
+## Interview Question
+
+### Why is data quality important during data collection?
+
+**Answer:** Poor-quality data can introduce noise, errors, missing values, and bias into the dataset, which can negatively affect model performance and reliability.

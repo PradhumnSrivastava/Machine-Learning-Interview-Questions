@@ -1,7 +1,5 @@
 # Questions Inbox
 
-5. Why is data quality important during data collection? Ans- Poor-quality data can introduce noise, errors, missing values, and bias into the dataset, which can negatively affect model performance and reliability.
-
 6. What is sampling in data collection? Ans- Sampling is the process of selecting a subset of observations from a larger population to represent that population for analysis or model development.
 
 7. What is sampling bias in Machine Learning? Ans- Sampling bias occurs when the collected sample does not adequately represent the target population, causing the model to learn patterns that may not generalize well to the real-world population.
