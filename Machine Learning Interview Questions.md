@@ -1389,3 +1389,11 @@
 ### What is data collection in Machine Learning?
 
 **Answer:** Data collection is the process of gathering relevant and sufficient data from various sources to train, validate, and test a machine learning model.
+
+---
+
+## Interview Question
+
+### What are the common sources of data for Machine Learning?
+
+**Answer:** Common sources include databases, APIs, web scraping, sensors, surveys, transaction systems, public datasets, application logs, and user-generated data.

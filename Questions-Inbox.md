@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. What are the common sources of data for Machine Learning? Ans- Common sources include databases, APIs, web scraping, sensors, surveys, transaction systems, public datasets, application logs, and user-generated data.
-
 3. What factors should be considered when collecting data for a Machine Learning project? Ans- Relevance, data quality, quantity, representativeness, consistency, completeness, accuracy, cost, privacy, and legal requirements should be considered.
 
 4. What is the difference between primary and secondary data collection? Ans- Primary data is collected directly for a specific purpose, such as through surveys or experiments, while secondary data is obtained from existing sources such as databases, public datasets, or previously collected records.
