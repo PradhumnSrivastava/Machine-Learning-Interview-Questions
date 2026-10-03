@@ -1421,3 +1421,11 @@
 ### Why is data quality important during data collection?
 
 **Answer:** Poor-quality data can introduce noise, errors, missing values, and bias into the dataset, which can negatively affect model performance and reliability.
+
+---
+
+## Interview Question
+
+### What is sampling in data collection?
+
+**Answer:** Sampling is the process of selecting a subset of observations from a larger population to represent that population for analysis or model development.

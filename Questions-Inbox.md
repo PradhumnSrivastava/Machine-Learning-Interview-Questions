@@ -1,7 +1,5 @@
 # Questions Inbox
 
-6. What is sampling in data collection? Ans- Sampling is the process of selecting a subset of observations from a larger population to represent that population for analysis or model development.
-
 7. What is sampling bias in Machine Learning? Ans- Sampling bias occurs when the collected sample does not adequately represent the target population, causing the model to learn patterns that may not generalize well to the real-world population.
 
 8. How does the quantity of collected data affect a Machine Learning model? Ans- More relevant and representative data can help a model learn patterns more reliably and generalize better, although simply increasing the amount of low-quality or redundant data does not necessarily improve performance.
