@@ -1381,3 +1381,11 @@
 ### How can Gradient Descent be improved for faster and more stable training?
 
 **Answer:** Gradient Descent can be improved using techniques such as Momentum, RMSProp, Adam, learning-rate scheduling, proper weight initialization, feature scaling, and appropriate batch sizes.
+
+---
+
+## Interview Question
+
+### What is data collection in Machine Learning?
+
+**Answer:** Data collection is the process of gathering relevant and sufficient data from various sources to train, validate, and test a machine learning model.
