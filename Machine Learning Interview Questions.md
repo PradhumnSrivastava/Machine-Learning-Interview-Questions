@@ -1445,3 +1445,11 @@
 ### How does the quantity of collected data affect a Machine Learning model?
 
 **Answer:** More relevant and representative data can help a model learn patterns more reliably and generalize better, although simply increasing the amount of low-quality or redundant data does not necessarily improve performance.
+
+---
+
+## Interview Question
+
+### What is data labeling and why is it important?
+
+**Answer:** Data labeling is the process of assigning meaningful target labels or annotations to data, such as class labels for images or sentiment labels for text, which is essential for supervised learning.
