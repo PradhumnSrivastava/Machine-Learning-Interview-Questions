@@ -60,3 +60,6 @@ ans- Random Split is a data-splitting technique in which observations are random
 
 Question 21- What is Data Leakage?
 ans- In artificial intelligence and statistics, data leakage happens when a model learns from information it should not have access to during training. This makes the model look very accurate during testing, but it fails badly when used in the real world.
+
+Question 22. What is Target Leakage?
+ans- Target leakage occurs when information about the target variable is directly or indirectly included in the input features during model training, causing the model to achieve unrealistically high performance.
