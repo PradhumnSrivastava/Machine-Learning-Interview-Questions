@@ -63,3 +63,6 @@ ans- In artificial intelligence and statistics, data leakage happens when a mode
 
 Question 22. What is Target Leakage?
 ans- Target leakage occurs when information about the target variable is directly or indirectly included in the input features during model training, causing the model to achieve unrealistically high performance.
+
+Question 23. What is Train Test Contamination?
+ans- Train-test contamination occurs when information from the test set accidentally influences the training process, causing the model's performance to appear better than it actually is.
