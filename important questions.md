@@ -57,3 +57,6 @@ ans- Train-Validation-Test Split divides a dataset into three subsets: training,
 
 Question 20- What is Random Split?
 ans- Random Split is a data-splitting technique in which observations are randomly assigned to training and testing or validation subsets. Randomization reduces the possibility that the split is influenced by the original ordering of the data and generally works well when observations are independently and identically distributed (i.i.d.).
+
+Question 21- What is Data Leakage?
+ans- In artificial intelligence and statistics, data leakage happens when a model learns from information it should not have access to during training. This makes the model look very accurate during testing, but it fails badly when used in the real world.
