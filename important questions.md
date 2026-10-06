@@ -79,4 +79,11 @@ ans- MNAR occurs when the probability of a value being missing depends on the mi
 Question 26. What is KNN Imputation?
 ans- KNN Imputation is a technique for handling missing values by finding the K most similar observations (nearest neighbors) and using their values to estimate the missing value.
 
-Question 27. 
+Question 27. What is Mean Imputation?
+ans- Mean imputation replaces missing numerical values with the mean (average) of the available values in that feature.
+
+Question 28. What is Mode Imputation?
+ans- Mode imputation replaces missing values with the most frequently occurring value in that feature.
+
+Question 29. What is Median Imputation?
+ans- Median imputation replaces missing numerical values with the median (middle value) of the available values in that feature.
