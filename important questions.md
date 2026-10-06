@@ -111,3 +111,6 @@ ans- Ordinal Encoding converts categories into numerical values according to the
 
 Question 37. What is Target Encoding
 ans- Target Encoding replaces each category with a statistic calculated from the target variable, usually the mean target value for that category.
+
+Question 38. What is Frequency Encoding?
+ans- Frequency Encoding replaces each category with the number of times or proportion of times that category appears in the dataset.
