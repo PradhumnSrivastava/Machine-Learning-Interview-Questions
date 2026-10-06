@@ -149,4 +149,23 @@ Question 47. When Scaling is NOT Required?
 ans- Tree-based algorithms generally don't require feature scaling because they make decisions using thresholds, rather than distances or feature magnitudes. like Decision Tree,
 Random Forest, XGBoost, LightGBM, and CatBoost.
 
-Question 48. 
+Question 48. What is an Outlier?
+ans- An outlier is an observation that is significantly different from the majority of the observations in a dataset.
+
+Question 49. What is Univariate Outlier?
+ans- A univariate outlier is an unusual observation detected by considering only one variable or feature.
+
+Question 50. What is Multivariate Outlier?
+ans- A multivariate outlier is an observation that may not be unusual in any single feature but is unusual because of the combination of multiple features.
+
+Question 51. What is Z-Score?
+ans- Z-score measures how many standard deviations an observation is away from the mean.
+
+Question 52. What is IQR Method?z
+ans- The IQR method identifies potential outliers using the interquartile range, which is the difference between the third quartile (Q3) and first quartile (Q1).
+
+Question 53. What is Box Plot?
+ans- A box plot is a graphical method for visualizing the distribution of numerical data and identifying potential outliers.
+
+Question 54. What is Winsorization?
+ans- Winsorization is a technique that limits extreme values by replacing them with specified percentile values instead of removing them.
