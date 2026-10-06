@@ -114,3 +114,6 @@ ans- Target Encoding replaces each category with a statistic calculated from the
 
 Question 38. What is Frequency Encoding?
 ans- Frequency Encoding replaces each category with the number of times or proportion of times that category appears in the dataset.
+
+Question 39. What is Scaling?
+ans- Feature scaling is the process of transforming numerical features to a similar scale so that features with larger numerical values do not dominate the model.
