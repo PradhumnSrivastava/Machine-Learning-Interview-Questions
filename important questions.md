@@ -117,3 +117,36 @@ ans- Frequency Encoding replaces each category with the number of times or propo
 
 Question 39. What is Scaling?
 ans- Feature scaling is the process of transforming numerical features to a similar scale so that features with larger numerical values do not dominate the model.
+
+Question 40. Why Feature Scaling?
+ans- Feature scaling is needed because some machine learning algorithms are sensitive to the magnitude and scale of features.
+
+Question 41. What is Standardization?
+ans- Standardization transforms a feature so that it has a mean of 0 and a standard deviation of 1.
+
+Question 42. Essential code for Standardization.
+ans- from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+Question 43. What is Normalization?
+ans- Normalization is a broader term for transforming data to a specific or comparable scale. In many ML contexts, people use "normalization" to refer specifically to scaling values to a fixed range such as 0 to 1. This is commonly done using Min-Max Scaling.
+
+Question 44. What is Min-Max Scaling?
+ans- Min-Max Scaling transforms values to a fixed range, usually between 0 and 1.
+
+Question 45. What is Robust Scaling?
+ans- Robust Scaling scales features using the median and interquartile range (IQR), making it less sensitive to outliers.
+
+Questoin 46. When is Scaling Required?
+ans- Scaling is particularly important for algorithms that depend on distance, magnitude, or gradient optimization.
+Common examples like Distance-based Models.
+
+Question 47. When Scaling is NOT Required?
+ans- Tree-based algorithms generally don't require feature scaling because they make decisions using thresholds, rather than distances or feature magnitudes. like Decision Tree,
+Random Forest, XGBoost, LightGBM, and CatBoost.
+
+Question 48. 
