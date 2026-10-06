@@ -169,3 +169,74 @@ ans- A box plot is a graphical method for visualizing the distribution of numeri
 
 Question 54. What is Winsorization?
 ans- Winsorization is a technique that limits extreme values by replacing them with specified percentile values instead of removing them.
+
+Question 55. What is Outlier Removal?
+ans- Outlier removal is the process of identifying and completely removing observations considered to be extreme or invalid.
+
+Question 56. What is Outlier Transformation?
+ans- Outlier transformation means applying a mathematical transformation to reduce the influence of extreme values while keeping the observation in the dataset.
+
+Question 57. What is Outlier capping?
+ans- Outlier capping replaces values above or below predefined limits with those limits instead of removing the observations.
+code- upper_limit = 100
+df["salary"] = df["salary"].clip(upper=upper_limit)
+
+#with Lowe limit
+df["salary"] = df["salary"].clip(
+    lower=10,
+    upper=100
+)
+
+Question 58. What is Isolation Forest?
+ans- Isolation Forest is an unsupervised machine learning algorithm that detects outliers by randomly partitioning the data; unusual observations tend to be isolated more quickly than normal observations.
+
+Question 59. What is Local Outlier Factor (LOF)?
+ans- Local Outlier Factor identifies outliers by comparing the local density of an observation with the density of its neighboring observations.
+
+Question 60. What is Correlation?
+ans- Correlation measures the strength and direction of the relationship between two variables.
+
+Question 61. What is Pearson Correlation?
+and- Pearson correlation measures the strength and direction of a linear relationship between two numerical variables.
+
+Question 62. What is Spearman Correlation?
+ans- Spearman correlation measures the strength and direction of a monotonic relationship between two variables using their ranks.
+
+Question 63. What is Chi-Square?
+ans- The Chi-Square test measures whether two categorical variables are statistically associated with each other.
+
+Question 64. What is ANOVA?
+ans- ANOVA tests whether the means of a numerical variable are significantly different across two or more groups.
+
+Question 65. What is Mutual Information?
+ans- Mutual Information measures how much information one variable provides about another and can capture nonlinear relationships.
+
+Question 66. What is Variance Threshold?
+ans- Variance Threshold removes features with variance below a specified threshold because they contain little or no variation.
+
+Question 67. What is Forward Selection?
+ans- Forward Selection starts with no features and adds features one by one based on their improvement in model performance.
+
+Question 68. What is Backward Elimination?
+ans- Backward Elimination starts with all features and removes the least useful feature one by one based on model performance.
+
+Question 69. What is Recursive Feature Elimination (RFE)?
+RFE repeatedly trains a model, ranks features by importance, and removes the least important features until the desired number of features remains.
+
+Question 70. What is Sequential Feature Selection?
+ans- Sequential Feature Selection adds or removes features step by step based on their effect on model performance.
+
+Question 71. What is Lasso Regularization?
+ans- Lasso is an L1-regularized regression method that can perform feature selection by shrinking some feature coefficients to zero.
+
+Question 72. What is Decision Tree Feature Importance
+ans- Decision Tree feature importance measures how much each feature contributes to reducing impurity in the decision tree.
+
+Question 73. What is Random Forest Feature Importance
+ans- Random Forest feature importance measures the contribution of features across multiple decision trees in the forest.
+
+Question 74. What is Permutation Importance?
+ans- Permutation importance measures a feature's importance by randomly shuffling its values and observing how much the model's performance decreases.
+
+Question 75. What is SHAP-Based Feature Importance?
+ans- SHAP-based feature importance measures how much each feature contributes to model predictions based on SHAP values.
