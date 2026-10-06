@@ -75,3 +75,8 @@ ans- MAR occurs when the probability of a value being missing depends on other o
 
 Question 25. MNAR — Missing Not At Random
 ans- MNAR occurs when the probability of a value being missing depends on the missing value itself or on some unobserved information related to that value.
+
+Question 26. What is KNN Imputation?
+ans- KNN Imputation is a technique for handling missing values by finding the K most similar observations (nearest neighbors) and using their values to estimate the missing value.
+
+Question 27. 
