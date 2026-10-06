@@ -66,3 +66,12 @@ ans- Target leakage occurs when information about the target variable is directl
 
 Question 23. What is Train Test Contamination?
 ans- Train-test contamination occurs when information from the test set accidentally influences the training process, causing the model's performance to appear better than it actually is.
+
+Question 24. What is MCAR — Missing Completely At Random?
+ans- MCAR occurs when the probability of a value being missing is completely unrelated to any observed or unobserved variable in the dataset. The missing values occur purely by random chance.
+
+Question 25. What is MAR — Missing At Random>
+ans- MAR occurs when the probability of a value being missing depends on other observed variables in the dataset, but not on the missing value itself after considering those observed variables.
+
+Question 25. MNAR — Missing Not At Random
+ans- MNAR occurs when the probability of a value being missing depends on the missing value itself or on some unobserved information related to that value.
