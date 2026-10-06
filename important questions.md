@@ -87,3 +87,27 @@ ans- Mode imputation replaces missing values with the most frequently occurring 
 
 Question 29. What is Median Imputation?
 ans- Median imputation replaces missing numerical values with the median (middle value) of the available values in that feature.
+
+Question 30. What is Categorical Variables?
+ans- Categorical variables are variables that contain values representing groups or categories rather than numerical quantities.
+
+Question 31. What is Nominal Variables?
+ans- Nominal variables are categorical variables whose categories have no natural order or ranking.
+
+Question 32. What is Ordinal Variables?
+ans- Ordinal variables are categorical variables whose categories have a meaningful order or ranking, but the difference between categories is not necessarily equal.
+
+Question 33. What is Encoding?
+ans- Encoding means converting categorical data into numerical form so that a machine learning algorithm can process it.
+
+Question 34. What is One-Hot Encoding?
+ans- One-Hot Encoding converts each category into a separate binary column, where 1 indicates the presence of a category and 0 indicates its absence.
+
+Question 35. What is Label Encoding
+ans- Label Encoding assigns a unique integer to each category.
+
+Question 36. What is Ordinal Encoding?
+ans- Ordinal Encoding converts categories into numerical values according to their natural order or ranking.
+
+Question 37. What is Target Encoding
+ans- Target Encoding replaces each category with a statistic calculated from the target variable, usually the mean target value for that category.
