@@ -1493,3 +1493,11 @@
 ### What are the main components of Data Science?
 
 **Answer:** The main components include data collection, data cleaning, exploratory data analysis, statistics, feature engineering, machine learning, model evaluation, and communicating insights.
+
+---
+
+## Interview Question
+
+### What are the different types of analytics used in Data Science?
+
+**Answer:** The four major types are descriptive analytics, which explains what happened; diagnostic analytics, which explains why it happened; predictive analytics, which forecasts what may happen; and prescriptive analytics, which recommends what action to take.
