@@ -1461,3 +1461,11 @@
 ### What is data leakage during data collection?
 
 **Answer:** Data leakage occurs when information that would not be legitimately available at prediction time is included in the training data, causing overly optimistic evaluation results and poor real-world performance.
+
+---
+
+## Interview Question
+
+### What is Data Science?
+
+**Answer:** Data Science is an interdisciplinary field that uses statistics, mathematics, programming, and machine learning to extract meaningful insights from data and support decision-making.

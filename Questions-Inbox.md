@@ -1,5 +1,4 @@
 # Questions Inbox
-1. What is Data Science? Ans- Data Science is an interdisciplinary field that uses statistics, mathematics, programming, and machine learning to extract meaningful insights from data and support decision-making.
 
 2. What is the difference between Data Science and Data Analytics? Ans- Data Science involves building predictive models, developing algorithms, and extracting insights from data, while Data Analytics primarily focuses on examining existing data to identify trends and support business decisions.
 
