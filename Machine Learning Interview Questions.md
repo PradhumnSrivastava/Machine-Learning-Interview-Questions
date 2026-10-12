@@ -1501,3 +1501,11 @@
 ### What are the different types of analytics used in Data Science?
 
 **Answer:** The four major types are descriptive analytics, which explains what happened; diagnostic analytics, which explains why it happened; predictive analytics, which forecasts what may happen; and prescriptive analytics, which recommends what action to take.
+
+---
+
+## Interview Question
+
+### What is the role of statistics in Data Science?
+
+**Answer:** Statistics helps summarize data, identify patterns, measure uncertainty, test hypotheses, understand relationships between variables, and evaluate the reliability of conclusions.
