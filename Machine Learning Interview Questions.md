@@ -1485,3 +1485,11 @@
 ### Why is Data Science becoming increasingly popular?
 
 **Answer:** Data Science is growing in popularity because organizations generate massive amounts of data and need data-driven insights for automation, prediction, personalization, and better decision-making.
+
+---
+
+## Interview Question
+
+### What are the main components of Data Science?
+
+**Answer:** The main components include data collection, data cleaning, exploratory data analysis, statistics, feature engineering, machine learning, model evaluation, and communicating insights.
