@@ -1,7 +1,5 @@
 # Questions Inbox
 
-2. What is the difference between Data Science and Data Analytics? Ans- Data Science involves building predictive models, developing algorithms, and extracting insights from data, while Data Analytics primarily focuses on examining existing data to identify trends and support business decisions.
-
 3. Why is Data Science becoming increasingly popular? Ans- Data Science is growing in popularity because organizations generate massive amounts of data and need data-driven insights for automation, prediction, personalization, and better decision-making.
 
 4. What are the main components of Data Science? Ans- The main components include data collection, data cleaning, exploratory data analysis, statistics, feature engineering, machine learning, model evaluation, and communicating insights.
