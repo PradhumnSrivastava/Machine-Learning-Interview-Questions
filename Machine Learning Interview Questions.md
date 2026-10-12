@@ -1509,3 +1509,11 @@
 ### What is the role of statistics in Data Science?
 
 **Answer:** Statistics helps summarize data, identify patterns, measure uncertainty, test hypotheses, understand relationships between variables, and evaluate the reliability of conclusions.
+
+---
+
+## Interview Question
+
+### What is the difference between structured and unstructured data?
+
+**Answer:** Structured data follows a predefined format, such as rows and columns in a database, while unstructured data lacks a fixed tabular structure, such as images, videos, audio, and free-text documents.
