@@ -1525,3 +1525,11 @@
 ### What are the major steps involved in a Data Science project?
 
 **Answer:** A typical project involves problem definition, data collection, data cleaning, exploratory data analysis, feature engineering, model development, evaluation, deployment, and monitoring.
+
+---
+
+## Interview Question
+
+### How is Data Science used in business?
+
+**Answer:** Businesses use Data Science for customer segmentation, sales forecasting, fraud detection, recommendation systems, demand prediction, risk assessment, and improving operational efficiency.
