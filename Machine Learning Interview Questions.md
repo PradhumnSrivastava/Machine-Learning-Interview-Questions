@@ -1477,3 +1477,11 @@
 ### What is the difference between Data Science and Data Analytics?
 
 **Answer:** Data Science involves building predictive models, developing algorithms, and extracting insights from data, while Data Analytics primarily focuses on examining existing data to identify trends and support business decisions.
+
+---
+
+## Interview Question
+
+### Why is Data Science becoming increasingly popular?
+
+**Answer:** Data Science is growing in popularity because organizations generate massive amounts of data and need data-driven insights for automation, prediction, personalization, and better decision-making.

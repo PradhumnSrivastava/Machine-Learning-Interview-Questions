@@ -1,7 +1,5 @@
 # Questions Inbox
 
-3. Why is Data Science becoming increasingly popular? Ans- Data Science is growing in popularity because organizations generate massive amounts of data and need data-driven insights for automation, prediction, personalization, and better decision-making.
-
 4. What are the main components of Data Science? Ans- The main components include data collection, data cleaning, exploratory data analysis, statistics, feature engineering, machine learning, model evaluation, and communicating insights.
 
 5. What are the different types of analytics used in Data Science? Ans- The four major types are descriptive analytics, which explains what happened; diagnostic analytics, which explains why it happened; predictive analytics, which forecasts what may happen; and prescriptive analytics, which recommends what action to take.
